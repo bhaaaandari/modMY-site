@@ -190,9 +190,9 @@ window.MODMY_SEARCH_INDEX = [
   },
   {
     "title": "Wheel Torque Reference",
-    "desc": "Factory torque specs by wheel size.",
-    "page": "diy-maintenance.html",
-    "id": "wheel-torque-reference",
+    "desc": "Factory torque specs by wheel size, sourced from Tesla's Owner's and Service Manuals.",
+    "page": "wheel-torque-reference.html",
+    "id": "",
     "section": "DIY / Maintenance"
   },
   {
