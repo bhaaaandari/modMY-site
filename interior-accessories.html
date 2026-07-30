@@ -22,6 +22,11 @@
         <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="site-search" id="siteSearch">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search modMY&hellip;" autocomplete="off" aria-label="Search site content">
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     </div>
   </header>
@@ -41,37 +46,37 @@
         <span class="label">Cabin</span>
       </p>
       <div class="placeholder-grid" style="margin-top:40px;">
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="all-weather-floor-mats">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">01</div>
           <h4>All-Weather Floor Mats</h4>
           <p>Fitment notes, materials, and liner comparisons.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="center-console-organizer">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">02</div>
           <h4>Center Console Organizer</h4>
           <p>Storage add-ons for the tunnel and armrest.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="ambient-lighting-kit">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">03</div>
           <h4>Ambient Lighting Kit</h4>
           <p>Under-dash and door LED strip installs.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="seat-back-protectors">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">04</div>
           <h4>Seat Back Protectors</h4>
           <p>Kick-guard options for rear passengers.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="sunshade-and-glass-roof">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">05</div>
           <h4>Sunshade & Glass Roof</h4>
           <p>Heat rejection and shade options for the panoramic roof.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="phone-mounts-and-charging">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">06</div>
           <h4>Phone Mounts & Charging</h4>
@@ -98,6 +103,7 @@
       <small>&copy; 2026 modMY &mdash; independent Tesla Model Y parts &amp; know-how. Not affiliated with Tesla, Inc.</small>
     </div>
   </footer>
+  <script src="assets/search-data.js"></script>
   <script src="nav.js"></script>
 </body>
 </html>

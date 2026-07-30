@@ -22,6 +22,11 @@
         <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
         </ul>
       </nav>
+      <div class="site-search" id="siteSearch">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search modMY&hellip;" autocomplete="off" aria-label="Search site content">
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     </div>
   </header>
@@ -97,6 +102,7 @@
       <small>&copy; 2026 modMY &mdash; independent Tesla Model Y parts &amp; know-how. Not affiliated with Tesla, Inc.</small>
     </div>
   </footer>
+  <script src="assets/search-data.js"></script>
   <script src="nav.js"></script>
 </body>
 </html>

@@ -22,6 +22,11 @@
         <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="site-search" id="siteSearch">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search modMY&hellip;" autocomplete="off" aria-label="Search site content">
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     </div>
   </header>
@@ -41,37 +46,37 @@
         <span class="label">Shell</span>
       </p>
       <div class="placeholder-grid" style="margin-top:40px;">
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="wheel-and-tire-packages">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">01</div>
           <h4>Wheel & Tire Packages</h4>
           <p>Fitment guides for popular aftermarket wheels.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="paint-protection-film">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">02</div>
           <h4>Paint Protection Film</h4>
           <p>Coverage packages and film comparisons.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="aero-mirror-caps">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">03</div>
           <h4>Aero Mirror Caps</h4>
           <p>Carbon and gloss-black options, drag notes.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="roof-rack-and-crossbars">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">04</div>
           <h4>Roof Rack & Crossbars</h4>
           <p>Load ratings and OEM vs. third-party racks.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="tow-hitch-install">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">05</div>
           <h4>Tow Hitch Install</h4>
           <p>Receiver options and towing capacity notes.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="exterior-lighting">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">06</div>
           <h4>Exterior Lighting</h4>
@@ -98,6 +103,7 @@
       <small>&copy; 2026 modMY &mdash; independent Tesla Model Y parts &amp; know-how. Not affiliated with Tesla, Inc.</small>
     </div>
   </footer>
+  <script src="assets/search-data.js"></script>
   <script src="nav.js"></script>
 </body>
 </html>

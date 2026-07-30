@@ -22,6 +22,11 @@
         <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="site-search" id="siteSearch">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search modMY&hellip;" autocomplete="off" aria-label="Search site content">
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     </div>
   </header>
@@ -41,37 +46,37 @@
         <span class="label">Garage</span>
       </p>
       <div class="placeholder-grid" style="margin-top:40px;">
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="tire-rotation-guide">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">01</div>
           <h4>Tire Rotation Guide</h4>
           <p>Jack points, torque specs, and rotation pattern.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="cabin-air-filter-swap">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">02</div>
           <h4>Cabin Air Filter Swap</h4>
           <p>5-minute HEPA filter replacement walkthrough.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="brake-fluid-service">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">03</div>
           <h4>Brake Fluid Service</h4>
           <p>Interval recommendations and bleed procedure.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="12v-battery-care">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">04</div>
           <h4>12V Battery Care</h4>
           <p>Testing, replacement, and common failure signs.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="wheel-torque-reference">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">05</div>
           <h4>Wheel Torque Reference</h4>
           <p>Factory torque specs by wheel size.</p>
         </div>
-        <div class="placeholder-card">
+        <div class="placeholder-card" id="software-and-ota-notes">
           <div class="swatch"><span>Image coming soon</span></div>
           <div class="num">06</div>
           <h4>Software & OTA Notes</h4>
@@ -98,6 +103,7 @@
       <small>&copy; 2026 modMY &mdash; independent Tesla Model Y parts &amp; know-how. Not affiliated with Tesla, Inc.</small>
     </div>
   </footer>
+  <script src="assets/search-data.js"></script>
   <script src="nav.js"></script>
 </body>
 </html>
