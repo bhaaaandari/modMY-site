@@ -842,7 +842,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   font-size:11px;
   letter-spacing:0.05em;
 }
-.foot-links{ display:flex; gap:26px; }
+.foot-links{ display:flex; flex-wrap:wrap; gap:18px 26px; }
 .foot-links a{
   font-family:var(--font-mono);
   font-size:12px;
@@ -874,5 +874,4 @@ table.guide-table tr:hover td{ background:var(--panel); }
     padding:8px 32px 20px;
   }
   .main-nav a{ display:block; padding:14px 0; width:100%; white-space:normal; }
-  .cat-grid{ grid-template-columns:1fr 1fr; }
 }
