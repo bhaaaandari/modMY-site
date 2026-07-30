@@ -488,6 +488,33 @@ h2.section-title{
   letter-spacing:0.1em;
   text-transform:uppercase;
 }
+.swatch-image{ padding:0; overflow:hidden; }
+.swatch-image img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+a.placeholder-card{
+  display:block;
+  text-decoration:none;
+  transition:border-color .2s ease, background .2s ease, transform .2s ease;
+}
+a.placeholder-card:hover{
+  border-color:var(--gold-soft);
+  background:var(--panel-2);
+  transform:translateY(-2px);
+}
+.card-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-top:14px;
+  font-family:var(--font-mono);
+  font-size:12px;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--gold-soft);
+}
+.card-cta svg{ transition:transform .2s ease; }
+a.placeholder-card:hover .card-cta svg{ transform:translateX(4px); }
+
 
 .notice{
   border:1px dashed var(--line);
@@ -500,6 +527,144 @@ h2.section-title{
   margin-top:48px;
 }
 .notice strong{ color:var(--gold-soft); }
+
+/* ---------------------------------------------------------
+   Guide pages (individual DIY / reference articles)
+   --------------------------------------------------------- */
+.guide-crumb{
+  font-family:var(--font-mono);
+  font-size:12px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin:0 0 18px;
+}
+.guide-crumb a{ color:var(--red-bright); }
+.guide-crumb a:hover{ color:var(--gold-soft); }
+.guide-meta{
+  display:flex;
+  gap:18px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:18px 0 0;
+  font-family:var(--font-mono);
+  font-size:12px;
+  color:var(--muted-2);
+  text-transform:uppercase;
+  letter-spacing:0.06em;
+}
+.guide-meta span.tag{
+  color:var(--bg);
+  background:var(--red);
+  padding:4px 10px;
+}
+.guide-image{
+  width:100%;
+  border:1px solid var(--line);
+  overflow:hidden;
+  margin:40px 0 0;
+  background:var(--bg-2);
+}
+.guide-image img{ width:100%; height:auto; display:block; }
+
+.guide-body{ max-width:760px; }
+.guide-body p{ color:var(--muted); font-size:16px; line-height:1.75; margin:0 0 22px; }
+.guide-body h3{
+  font-family:var(--font-display);
+  text-transform:uppercase;
+  font-size:20px;
+  font-weight:700;
+  color:var(--white);
+  margin:44px 0 16px;
+}
+
+.guide-table-wrap{ overflow-x:auto; border:1px solid var(--line); margin:0 0 8px; }
+table.guide-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+  min-width:620px;
+}
+table.guide-table th{
+  text-align:left;
+  font-family:var(--font-mono);
+  font-size:11.5px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--red-bright);
+  background:var(--panel);
+  padding:13px 16px;
+  border-bottom:1px solid var(--line);
+  white-space:nowrap;
+}
+table.guide-table td{
+  padding:13px 16px;
+  border-bottom:1px solid var(--line-soft);
+  color:var(--muted);
+  white-space:nowrap;
+}
+table.guide-table td:first-child, table.guide-table td:nth-child(2){ color:var(--white); }
+table.guide-table td.torque-val{ color:var(--gold-soft); font-family:var(--font-mono); font-weight:600; }
+table.guide-table tr:last-child td{ border-bottom:none; }
+table.guide-table tr:hover td{ background:var(--panel); }
+.table-caption{
+  font-family:var(--font-mono);
+  font-size:11.5px;
+  color:var(--muted-2);
+  margin:10px 0 0;
+}
+
+.callout{
+  border:1px solid var(--line);
+  background:var(--panel);
+  padding:22px 24px;
+  margin:32px 0 0;
+}
+.callout h4{
+  font-family:var(--font-display);
+  text-transform:uppercase;
+  font-size:15px;
+  letter-spacing:0.03em;
+  margin:0 0 12px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.callout p{ color:var(--muted); font-size:14px; margin:0 0 10px; line-height:1.65; }
+.callout ul{ margin:0; padding:0; list-style:none; }
+.callout li{ margin:0 0 9px; }
+.callout li:last-child{ margin-bottom:0; }
+.callout a{ color:var(--white); border-bottom:1px solid var(--line); font-size:14px; transition:border-color .2s ease, color .2s ease; }
+.callout a:hover{ color:var(--gold-soft); border-color:var(--gold-soft); }
+
+.callout-source h4{ color:var(--gold-soft); }
+.callout-source h4::before{ content:"\2713"; color:var(--gold-soft); font-size:13px; }
+
+.callout-note{ border-color:var(--line); background:rgba(255,255,255,0.02); }
+.callout-note p{ font-family:var(--font-mono); font-size:12.5px; }
+
+.callout-disclaimer{
+  border:1px solid var(--red-dim);
+  background:rgba(216,30,44,0.06);
+}
+.callout-disclaimer h4{ color:var(--red-bright); }
+.callout-disclaimer h4::before{ content:"\26A0"; }
+.callout-disclaimer p{ font-size:13px; line-height:1.7; }
+
+.guide-footer-nav{
+  margin-top:56px;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+}
+.guide-footer-nav a{
+  font-family:var(--font-mono);
+  font-size:13px;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  color:var(--red-bright);
+}
+.guide-footer-nav a:hover{ color:var(--gold-soft); }
+
 
 /* ---------------------------------------------------------
    Contact page
