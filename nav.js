@@ -44,8 +44,12 @@ document.addEventListener('DOMContentLoaded', function () {
     resultsBox.hidden = false;
   }
 
+  function normalize(s) {
+    return s.toLowerCase().replace(/&/g, ' and ').replace(/\s+/g, ' ').trim();
+  }
+
   function runSearch(query) {
-    query = query.trim().toLowerCase();
+    query = query.trim();
     activeIndex = -1;
     if (!query) {
       resultsBox.hidden = true;
@@ -53,10 +57,10 @@ document.addEventListener('DOMContentLoaded', function () {
       currentMatches = [];
       return;
     }
+    var words = normalize(query).split(' ').filter(Boolean);
     currentMatches = index.filter(function (item) {
-      return item.title.toLowerCase().indexOf(query) !== -1 ||
-             item.desc.toLowerCase().indexOf(query) !== -1 ||
-             item.section.toLowerCase().indexOf(query) !== -1;
+      var haystack = normalize(item.title + ' ' + item.desc + ' ' + item.section);
+      return words.every(function (w) { return haystack.indexOf(w) !== -1; });
     }).slice(0, 8);
     renderResults(currentMatches, query);
   }
