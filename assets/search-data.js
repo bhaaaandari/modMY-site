@@ -169,9 +169,9 @@ window.MODMY_SEARCH_INDEX = [
   },
   {
     "title": "Cabin Air Filter Swap",
-    "desc": "5-minute HEPA filter replacement walkthrough.",
-    "page": "diy-maintenance.html",
-    "id": "cabin-air-filter-swap",
+    "desc": "Behind-the-console filter replacement, step by step, sourced from Tesla's documentation.",
+    "page": "cabin-air-filter-swap.html",
+    "id": "",
     "section": "DIY / Maintenance"
   },
   {
