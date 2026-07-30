@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | modMY</title>
+<meta name="description" content="modMY — parts, upgrades, and DIY know-how built exclusively for the Tesla Model Y.">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .hero{ position:relative; min-height:92vh; display:flex; align-items:flex-end; overflow:hidden; }
+  .hero-media{ position:absolute; inset:0; z-index:0; }
+  .hero-media img{ width:100%; height:100%; object-fit:cover; object-position:center 30%; }
+  .hero-fade{ position:absolute; inset:0; background:
+      linear-gradient(0deg, var(--bg) 2%, rgba(10,10,11,0.55) 42%, rgba(10,10,11,0.15) 70%),
+      linear-gradient(90deg, rgba(10,10,11,0.75) 0%, rgba(10,10,11,0.15) 55%); }
+  .hero-content{ position:relative; z-index:1; padding-bottom:76px; padding-top:120px; }
+  .hero h1{ font-family:var(--font-display); font-weight:700; text-transform:uppercase; font-size:clamp(42px,7vw,84px); line-height:0.98; letter-spacing:-0.01em; margin:22px 0 22px; }
+  .hero h1 .accent{ color:var(--red); }
+  .hero-lede{ max-width:520px; color:var(--muted); font-size:17px; margin:0 0 34px; }
+  .hero-cta{ display:flex; gap:16px; flex-wrap:wrap; }
+  @media (max-width:700px){ .hero{ min-height:78vh; } .hero-content{ padding-top:80px; } }
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="modMY home">
+        <svg class="plug" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 2v4M16 2v4M6 8h12v4a6 6 0 0 1-6 6 6 6 0 0 1-6-6V8z" stroke="#d81e2c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18v4" stroke="#d81e2c" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+        <span class="mod">mod</span><span class="my">MY</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+        <li><a href="interior-accessories.html">Interior Accessories</a></li>
+        <li><a href="exterior-accessories.html">Exterior Accessories</a></li>
+        <li><a href="suspension.html">Suspension</a></li>
+        <li><a href="diy-maintenance.html">DIY / Maintenance</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-media">
+      <img src="assets/hero.png" alt="Red Tesla Model Y parked in an underground garage, level P2" />
+      <div class="hero-fade"></div>
+    </div>
+    <div class="hero-content container">
+      <p class="level-plate" style="max-width:340px;">
+        <span class="code">P2</span>
+        <span class="rule"></span>
+        <span class="label">Model Y &middot; All Trims</span>
+      </p>
+      <h1>Built for the<br>Model&nbsp;Y.<br><span class="accent">Nothing else.</span></h1>
+      <p class="hero-lede">Interior. Exterior. Suspension. Maintenance. One garage, one focus &mdash; every part and every guide on this site is chosen, fitted, and written for a single car.</p>
+      <div class="hero-cta">
+        <a href="exterior-accessories.html" class="btn btn-primary">Shop Exterior</a>
+        <a href="diy-maintenance.html" class="btn btn-ghost">DIY Guides</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow-mono">// Site Map</p>
+      <h2 class="section-title">Pick your level</h2>
+      <p class="section-desc">Every section of the build, organized like the deck you parked on.</p>
+
+      <div class="cat-grid">
+        <a class="cat-card" href="interior-accessories.html">
+          <div><span class="lvl">L1 &mdash; CABIN</span>
+          <h3>Interior Accessories</h3>
+          <p>Mats, console organizers, trim, lighting, and comfort upgrades.</p></div>
+          <span class="go">Enter L1 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="cat-card" href="exterior-accessories.html">
+          <div><span class="lvl">L2 &mdash; SHELL</span>
+          <h3>Exterior Accessories</h3>
+          <p>Wraps, wheels, aero, lighting, and protective add-ons.</p></div>
+          <span class="go">Enter L2 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="cat-card" href="suspension.html">
+          <div><span class="lvl">L3 &mdash; CHASSIS</span>
+          <h3>Suspension</h3>
+          <p>Coilovers, springs, sway bars, alignment specs &amp; handling.</p></div>
+          <span class="go">Enter L3 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="cat-card" href="diy-maintenance.html">
+          <div><span class="lvl">L4 &mdash; GARAGE</span>
+          <h3>DIY / Maintenance</h3>
+          <p>Step-by-step guides, torque specs, and tool lists.</p></div>
+          <span class="go">Enter L4 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p class="level-plate">
+        <span class="code">L5</span>
+        <span class="rule"></span>
+        <span class="label">Get in touch</span>
+      </p>
+      <h2 class="section-title" style="margin-top:22px;">Questions about fitment?</h2>
+      <p class="section-desc">We only work on one car, so we know it well. Reach out before you buy.</p>
+      <a href="contact.html" class="btn btn-primary">Contact modMY</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-brand"><span class="mod">mod</span><span class="my">MY</span></div>
+      <ul class="foot-links">
+        <li><a href="interior-accessories.html">Interior</a></li>
+        <li><a href="exterior-accessories.html">Exterior</a></li>
+        <li><a href="suspension.html">Suspension</a></li>
+        <li><a href="diy-maintenance.html">DIY</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <small>&copy; 2026 modMY &mdash; independent Tesla Model Y parts &amp; know-how. Not affiliated with Tesla, Inc.</small>
+    </div>
+  </footer>
+  <script src="nav.js"></script>
+</body>
+</html>
