@@ -513,6 +513,14 @@ h2.section-title{
   grid-template-columns:1fr;
   max-width:560px;
 }
+.form-status{
+  margin:14px 0 0;
+  font-family:var(--font-mono);
+  font-size:13px;
+  min-height:18px;
+}
+.form-status-success{ color:#7bd88f; }
+.form-status-error{ color:var(--red-bright); }
 
 .field{ margin-bottom:22px; }
 .field label{

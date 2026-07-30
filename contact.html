@@ -71,11 +71,12 @@
             <textarea id="message" placeholder="What's on your mind?"></textarea>
           </div>
           <button type="button" class="btn btn-primary" id="sendMessageBtn">Send Message</button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
         </form>
       </div>
 
       <div class="notice">
-        <strong>Heads up.</strong> "Send Message" opens your email app with the details pre-filled &mdash; it doesn't submit anywhere automatically. Swap this for a real form handler whenever you're ready.
+        <strong>Note.</strong> Messages sent through this form are delivered privately &mdash; your email address is never shown on the page.
       </div>
     </div>
   </section>
@@ -98,29 +99,66 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var btn = document.getElementById('sendMessageBtn');
+      var status = document.getElementById('formStatus');
       if (!btn) return;
+
       btn.addEventListener('click', function () {
-        var name = document.getElementById('name').value.trim();
-        var email = document.getElementById('email').value.trim();
-        var topic = document.getElementById('topic').value;
-        var message = document.getElementById('message').value.trim();
+        var nameEl = document.getElementById('name');
+        var emailEl = document.getElementById('email');
+        var topicEl = document.getElementById('topic');
+        var messageEl = document.getElementById('message');
 
-        var subject = 'modMY - Customer Inquiry';
-        var bodyLines = [
-          'Name: ' + (name || '(not provided)'),
-          'Email: ' + (email || '(not provided)'),
-          'Topic: ' + topic,
-          '',
-          'Message:',
-          message || '(not provided)'
-        ];
-        var body = bodyLines.join('\n');
+        var name = nameEl.value.trim();
+        var email = emailEl.value.trim();
+        var topic = topicEl.value;
+        var message = messageEl.value.trim();
 
-        var mailto = 'mailto:atul.k.bhandari@gmail.com'
-          + '?subject=' + encodeURIComponent(subject)
-          + '&body=' + encodeURIComponent(body);
+        if (!name || !email || !message) {
+          status.textContent = 'Please fill in your name, email, and message.';
+          status.className = 'form-status form-status-error';
+          return;
+        }
 
-        window.location.href = mailto;
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+        status.textContent = '';
+        status.className = 'form-status';
+
+        fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            access_key: 'e7f6c6d8-357f-47e5-913c-2e1401c7fab3',
+            subject: 'modMY - Customer Inquiry',
+            from_name: 'modMY Contact Form',
+            name: name,
+            email: email,
+            topic: topic,
+            message: message
+          })
+        })
+          .then(function (res) { return res.json(); })
+          .then(function (data) {
+            btn.disabled = false;
+            btn.textContent = 'Send Message';
+            if (data.success) {
+              status.textContent = "Message sent — we'll get back to you soon.";
+              status.className = 'form-status form-status-success';
+              nameEl.value = '';
+              emailEl.value = '';
+              messageEl.value = '';
+              topicEl.selectedIndex = 0;
+            } else {
+              status.textContent = 'Something went wrong. Please try again.';
+              status.className = 'form-status form-status-error';
+            }
+          })
+          .catch(function () {
+            btn.disabled = false;
+            btn.textContent = 'Send Message';
+            status.textContent = 'Network error — please try again.';
+            status.className = 'form-status form-status-error';
+          });
       });
     });
   </script>
