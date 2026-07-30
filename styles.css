@@ -583,7 +583,6 @@ table.guide-table{
   width:100%;
   border-collapse:collapse;
   font-size:14px;
-  min-width:620px;
 }
 table.guide-table th{
   text-align:left;
@@ -595,14 +594,14 @@ table.guide-table th{
   background:var(--panel);
   padding:13px 16px;
   border-bottom:1px solid var(--line);
-  white-space:nowrap;
 }
 table.guide-table td{
   padding:13px 16px;
   border-bottom:1px solid var(--line-soft);
   color:var(--muted);
-  white-space:nowrap;
+  word-break:break-word;
 }
+table.guide-table td.nowrap, table.guide-table th.nowrap{ white-space:nowrap; }
 table.guide-table td:first-child, table.guide-table td:nth-child(2){ color:var(--white); }
 table.guide-table td.torque-val{ color:var(--gold-soft); font-family:var(--font-mono); font-weight:600; }
 table.guide-table tr:last-child td{ border-bottom:none; }
