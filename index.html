@@ -9,7 +9,9 @@
 <style>
   .hero{ position:relative; min-height:82vh; display:flex; align-items:flex-end; overflow:hidden; }
   .hero-media{ position:absolute; inset:0; z-index:0; }
-  .hero-media img{ width:100%; height:100%; object-fit:cover; object-position:center 82%; }
+  .hero-media img.hero-bg{ width:100%; height:100%; object-fit:cover; object-position:center 45%; }
+  .hero-logo-mark{ position:absolute; z-index:2; right:44px; bottom:36px; height:52px; width:auto; opacity:0.95; filter:drop-shadow(0 4px 14px rgba(0,0,0,0.5)); }
+  @media (max-width:700px){ .hero-logo-mark{ height:34px; right:20px; bottom:20px; } }
   .hero-fade{ position:absolute; inset:0; background:
       radial-gradient(1200px 780px at 6% 102%, rgba(6,6,7,0.94) 0%, rgba(6,6,7,0.72) 30%, rgba(6,6,7,0.28) 55%, transparent 78%),
       linear-gradient(0deg, rgba(6,6,7,0.32) 0%, transparent 26%); }
@@ -41,8 +43,9 @@
   </header>
   <section class="hero">
     <div class="hero-media">
-      <img src="assets/hero.png" alt="Red Tesla Model Y parked in an underground garage, level P2" />
+      <img src="assets/hero.png" alt="Red Tesla Model Y parked in an underground garage, level P2" class="hero-bg" />
       <div class="hero-fade"></div>
+      <img src="assets/logo-mark.png" alt="modMY" class="hero-logo-mark" />
     </div>
     <div class="hero-content container">
       <p class="level-plate" style="max-width:340px;">
