@@ -1,0 +1,43 @@
+<svg width="820" height="480" viewBox="0 0 820 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow3" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#1a1a1d"/>
+      <stop offset="55%" stop-color="#0e0e10"/>
+      <stop offset="100%" stop-color="#08080a"/>
+    </radialGradient>
+    <linearGradient id="filterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9cdb0"/>
+      <stop offset="100%" stop-color="#b8a882"/>
+    </linearGradient>
+    <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c2c2e"/>
+      <stop offset="100%" stop-color="#141416"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="820" height="480" fill="url(#bgGlow3)"/>
+  <g opacity="0.05">
+    <line x1="-150" y1="0" x2="-260" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="-85" y1="0" x2="-195" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="-20" y1="0" x2="-130" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="45" y1="0" x2="-65" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="110" y1="0" x2="0" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="175" y1="0" x2="65" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="240" y1="0" x2="130" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="305" y1="0" x2="195" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="370" y1="0" x2="260" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="435" y1="0" x2="325" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="500" y1="0" x2="390" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="565" y1="0" x2="455" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="630" y1="0" x2="520" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="695" y1="0" x2="585" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="760" y1="0" x2="650" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="825" y1="0" x2="715" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="890" y1="0" x2="780" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="955" y1="0" x2="845" y2="480" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <text x="410" y="66" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="3" fill="#8d8d92" text-anchor="middle">CABIN AIR FILTERS</text>
+  <line x1="410" y1="74" x2="410" y2="84" stroke="#d81e2c" stroke-width="2"/>
+
+  <g>
+    <rect x="205.0" y="141" width="186" height="186" rx="5" fill="url(#frameGrad)" stroke="#0a0a0b" stroke-width="1.5"/>
+    <rect x="214.0" y="150" width="168" height="168" fill="url(#filterGrad)"/>
+    <path d="M214.0,160 L223.3,308 L232.7,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M232.7,160 L242.0,308 L251.3,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M251.3,160 L260.7,308 L270.0,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M270.0,160 L279.3,308 L288.7,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M288.7,160 L298.0,308 L307.3,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M307.3,160 L316.7,308 L326.0,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M326.0,160 L335.3,308 L344.7,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M344.7,160 L354.0,308 L363.3,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M363.3,160 L372.7,308 L382.0,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/>
+    <rect x="205.0" y="141" width="186" height="186" rx="5" fill="none" stroke="#0a0a0b" stroke-width="1.5"/>
+    <rect x="276.0" y="311" width="44" height="14" rx="3" fill="#1c1c1e" stroke="#050506" stroke-width="1"/>
+    <path d="M 412.0 220.0 L 412.0 248.0 M 402.0 238.0 L 412.0 248.0 L 422.0 238.0" stroke="#d81e2c" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="298.0" y="130" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5" fill="#6f6f74" text-anchor="middle">TOP SLOT</text>
+  </g>
+  <g>
+    <rect x="429.0" y="141" width="186" height="186" rx="5" fill="url(#frameGrad)" stroke="#0a0a0b" stroke-width="1.5"/>
+    <rect x="438.0" y="150" width="168" height="168" fill="url(#filterGrad)"/>
+    <path d="M438.0,160 L447.3,308 L456.7,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M456.7,160 L466.0,308 L475.3,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M475.3,160 L484.7,308 L494.0,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M494.0,160 L503.3,308 L512.7,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M512.7,160 L522.0,308 L531.3,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M531.3,160 L540.7,308 L550.0,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M550.0,160 L559.3,308 L568.7,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M568.7,160 L578.0,308 L587.3,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/><path d="M587.3,160 L596.7,308 L606.0,160" fill="none" stroke="#948764" stroke-width="1.2" opacity="0.6"/>
+    <rect x="429.0" y="141" width="186" height="186" rx="5" fill="none" stroke="#0a0a0b" stroke-width="1.5"/>
+    <rect x="500.0" y="311" width="44" height="14" rx="3" fill="#1c1c1e" stroke="#050506" stroke-width="1"/>
+    <path d="M 636.0 220.0 L 636.0 248.0 M 626.0 238.0 L 636.0 248.0 L 646.0 238.0" stroke="#d81e2c" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="522.0" y="130" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5" fill="#6f6f74" text-anchor="middle">BOTTOM SLOT</text>
+  </g></svg>
