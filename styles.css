@@ -85,7 +85,8 @@ ul{ margin:0; padding:0; list-style:none; }
 .site-header .container{
   display:flex;
   align-items:center;
-  justify-content:space-between;
+  justify-content:flex-start;
+  gap:64px;
   height:78px;
 }
 
@@ -135,6 +136,7 @@ ul{ margin:0; padding:0; list-style:none; }
 
 .nav-toggle{
   display:none;
+  margin-left:auto;
   background:none;
   border:1px solid var(--line);
   border-radius:6px;
