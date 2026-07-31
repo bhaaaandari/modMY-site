@@ -70,10 +70,17 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Interior Accessories"
   },
   {
-    "title": "Phone Mounts & Charging",
-    "desc": "Wireless charging trays and mount comparisons.",
+    "title": "Center Console Charging Hub",
+    "desc": "Fast console charging, tested for fit and heat.",
     "page": "interior-accessories.html",
-    "id": "phone-mounts-and-charging",
+    "id": "center-console-charging-hub",
+    "section": "Interior Accessories"
+  },
+  {
+    "title": "Under Screen Storage Organizer",
+    "desc": "A snug-fitting tray under the touchscreen, tested for daily use.",
+    "page": "interior-accessories.html",
+    "id": "under-screen-storage-organizer",
     "section": "Interior Accessories"
   },
   {
