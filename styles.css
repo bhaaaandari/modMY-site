@@ -529,7 +529,7 @@ h2.section-title{
   margin:0 0 18px;
   flex:1;
 }
-.product-card .btn{ align-self:flex-start; }
+.product-card .btn{ align-self:center; }
 
 .placeholder-card{
   background:var(--panel);
