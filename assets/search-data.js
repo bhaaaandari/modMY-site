@@ -70,45 +70,38 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Interior Accessories"
   },
   {
-    "title": "Wheel & Tire Packages",
-    "desc": "Fitment guides for popular aftermarket wheels.",
+    "title": "Rear Bumper Guard",
+    "desc": "Clip-on protection tested against real loading and unloading scuffs.",
     "page": "exterior-accessories.html",
-    "id": "wheel-and-tire-packages",
+    "id": "rear-bumper-guard",
     "section": "Exterior Accessories"
   },
   {
-    "title": "Paint Protection Film",
-    "desc": "Coverage packages and film comparisons.",
+    "title": "CAR GUYS Plastic Restorer",
+    "desc": "Restores faded black trim, tested against rain and repeated washes.",
     "page": "exterior-accessories.html",
-    "id": "paint-protection-film",
+    "id": "car-guys-plastic-restorer",
     "section": "Exterior Accessories"
   },
   {
-    "title": "Aero Mirror Caps",
-    "desc": "Carbon and gloss-black options, drag notes.",
+    "title": "Auto Paint Protection Film",
+    "desc": "Rock chip protection for the rear quarter panels, DIY install.",
     "page": "exterior-accessories.html",
-    "id": "aero-mirror-caps",
+    "id": "auto-paint-protection-film",
     "section": "Exterior Accessories"
   },
   {
-    "title": "Roof Rack & Crossbars",
-    "desc": "Load ratings and OEM vs. third-party racks.",
+    "title": "No Drill Front License Plate Holder",
+    "desc": "Secure mount using existing points, no bumper drilling.",
     "page": "exterior-accessories.html",
-    "id": "roof-rack-and-crossbars",
+    "id": "no-drill-front-license-plate-holder",
     "section": "Exterior Accessories"
   },
   {
-    "title": "Tow Hitch Install",
-    "desc": "Receiver options and towing capacity notes.",
+    "title": "Wheel Covers with Rim Protection",
+    "desc": "Curb rash protection that also hides existing rim damage.",
     "page": "exterior-accessories.html",
-    "id": "tow-hitch-install",
-    "section": "Exterior Accessories"
-  },
-  {
-    "title": "Exterior Lighting",
-    "desc": "Underglow, puddle lights, and legal considerations.",
-    "page": "exterior-accessories.html",
-    "id": "exterior-lighting",
+    "id": "wheel-covers-with-rim-protection",
     "section": "Exterior Accessories"
   },
   {
