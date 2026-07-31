@@ -70,6 +70,34 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Interior Accessories"
   },
   {
+    "title": "Camping Air Mattress",
+    "desc": "Trunk-fitting air mattress tested for overnight road trips.",
+    "page": "interior-accessories.html",
+    "id": "camping-air-mattress",
+    "section": "Interior Accessories"
+  },
+  {
+    "title": "Performance Pedals",
+    "desc": "Cosmetic pedal covers with secure, no-slip fitment.",
+    "page": "interior-accessories.html",
+    "id": "performance-pedals",
+    "section": "Interior Accessories"
+  },
+  {
+    "title": "Portable Tire Inflator",
+    "desc": "Compact tire inflator tested for accuracy and speed.",
+    "page": "interior-accessories.html",
+    "id": "portable-tire-inflator",
+    "section": "Interior Accessories"
+  },
+  {
+    "title": "Emergency Flashlight + Utilities",
+    "desc": "Multifunctional flashlight with window breaker, seatbelt cutter, strobe & SOS.",
+    "page": "interior-accessories.html",
+    "id": "emergency-flashlight-utilities",
+    "section": "Interior Accessories"
+  },
+  {
     "title": "Rear Bumper Guard",
     "desc": "Clip-on protection tested against real loading and unloading scuffs.",
     "page": "exterior-accessories.html",
