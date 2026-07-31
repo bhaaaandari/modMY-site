@@ -49,20 +49,6 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Interior Accessories"
   },
   {
-    "title": "Ambient Lighting Kit",
-    "desc": "Under-dash and door LED strip installs.",
-    "page": "interior-accessories.html",
-    "id": "ambient-lighting-kit",
-    "section": "Interior Accessories"
-  },
-  {
-    "title": "Seat Back Protectors",
-    "desc": "Kick-guard options for rear passengers.",
-    "page": "interior-accessories.html",
-    "id": "seat-back-protectors",
-    "section": "Interior Accessories"
-  },
-  {
     "title": "Sunshade & Glass Roof",
     "desc": "Heat rejection and shade options for the panoramic roof.",
     "page": "interior-accessories.html",
