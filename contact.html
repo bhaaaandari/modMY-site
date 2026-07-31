@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YL8E1Z4VFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-YL8E1Z4VFV');
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | modMY</title>
@@ -144,6 +153,9 @@
             if (data.success) {
               status.textContent = "Message sent — we'll get back to you soon.";
               status.className = 'form-status form-status-success';
+              if (typeof gtag === 'function') {
+                gtag('event', 'generate_lead', { form_name: 'contact_form' });
+              }
               nameEl.value = '';
               emailEl.value = '';
               messageEl.value = '';
