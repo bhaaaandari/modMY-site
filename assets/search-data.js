@@ -161,13 +161,6 @@ window.MODMY_SEARCH_INDEX = [
     "section": "DIY / Maintenance"
   },
   {
-    "title": "Brake Fluid Service",
-    "desc": "Interval recommendations and bleed procedure.",
-    "page": "diy-maintenance.html",
-    "id": "brake-fluid-service",
-    "section": "DIY / Maintenance"
-  },
-  {
     "title": "Service Mode",
     "desc": "How to enter, exit, and what diagnostic data it exposes across trims and years.",
     "page": "service-mode.html",
@@ -179,13 +172,6 @@ window.MODMY_SEARCH_INDEX = [
     "desc": "Factory torque specs by wheel size, sourced from Tesla's Owner's and Service Manuals.",
     "page": "wheel-torque-reference.html",
     "id": "",
-    "section": "DIY / Maintenance"
-  },
-  {
-    "title": "Software & OTA Notes",
-    "desc": "What changes to watch for after updates.",
-    "page": "diy-maintenance.html",
-    "id": "software-and-ota-notes",
     "section": "DIY / Maintenance"
   }
 ];
