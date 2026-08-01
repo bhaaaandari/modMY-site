@@ -65,6 +65,7 @@
 
       <div class="contact-grid contact-grid-single" style="margin-top:40px;">
         <form id="contactForm">
+          <input type="checkbox" name="botcheck" id="botcheck" style="display:none;" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="name">Name</label>
             <input id="name" type="text" placeholder="Your name" />
@@ -124,6 +125,15 @@
         var emailEl = document.getElementById('email');
         var topicEl = document.getElementById('topic');
         var messageEl = document.getElementById('message');
+        var botcheckEl = document.getElementById('botcheck');
+
+        // Honeypot: real visitors never check this hidden field. If it's
+        // checked, silently pretend to succeed without actually sending.
+        if (botcheckEl && botcheckEl.checked) {
+          status.textContent = "Message sent — we'll get back to you soon.";
+          status.className = 'form-status form-status-success';
+          return;
+        }
 
         var name = nameEl.value.trim();
         var email = emailEl.value.trim();
@@ -146,6 +156,7 @@
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify({
             access_key: 'e7f6c6d8-357f-47e5-913c-2e1401c7fab3',
+            botcheck: botcheckEl ? botcheckEl.checked : false,
             subject: 'modMY - Customer Inquiry',
             from_name: 'modMY Contact Form',
             name: name,
