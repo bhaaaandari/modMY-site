@@ -1034,3 +1034,65 @@ table.guide-table tr:hover td{ background:var(--panel); }
   .uc-photo-card{ aspect-ratio:3/4; }
   .uc-photo-text{ padding:28px 22px; }
 }
+
+/* ---------------------------------------------------------
+   Related content (cross-linking guides <-> products)
+   --------------------------------------------------------- */
+.related-section{
+  margin-top:56px;
+  padding-top:36px;
+  border-top:1px solid var(--line);
+}
+.related-section h3{
+  font-family:var(--font-display);
+  text-transform:uppercase;
+  font-size:20px;
+  font-weight:700;
+  color:var(--white);
+  margin:0 0 20px;
+}
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+@media (max-width:700px){ .related-grid{ grid-template-columns:1fr; } }
+
+.related-card{
+  display:block;
+  background:var(--panel);
+  border:1px solid var(--line);
+  overflow:hidden;
+  text-decoration:none;
+  transition:border-color .2s ease, transform .2s ease;
+}
+.related-card:hover{ border-color:var(--gold-soft); transform:translateY(-2px); }
+.related-card .related-image{
+  height:120px;
+  background:#f4f3ef;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.related-card .related-image img{ width:100%; height:100%; object-fit:cover; display:block; }
+.related-card.related-guide .related-image{ background:var(--bg-2); }
+.related-card .related-body{ padding:14px 16px 16px; }
+.related-card .related-tag{
+  font-family:var(--font-mono);
+  font-size:10.5px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--red-bright);
+  display:block;
+  margin-bottom:6px;
+}
+.related-card h5{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:14.5px;
+  text-transform:uppercase;
+  color:var(--white);
+  margin:0;
+  letter-spacing:0.01em;
+}
