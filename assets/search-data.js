@@ -98,6 +98,27 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Interior Accessories"
   },
   {
+    "title": "Screen Protector",
+    "desc": "Matte finish reduces glare and keeps fingerprints off the touchscreen.",
+    "page": "interior-accessories.html",
+    "id": "screen-protector",
+    "section": "Interior Accessories"
+  },
+  {
+    "title": "Vegan Leather Cleaner",
+    "desc": "Formulated specifically for Tesla's vegan leather seats.",
+    "page": "interior-accessories.html",
+    "id": "vegan-leather-cleaner",
+    "section": "Interior Accessories"
+  },
+  {
+    "title": "Trunk Mood Accent Lighting",
+    "desc": "Tool-free trunk lighting with adjustable brightness.",
+    "page": "interior-accessories.html",
+    "id": "trunk-mood-accent-lighting",
+    "section": "Interior Accessories"
+  },
+  {
     "title": "Rear Bumper Guard",
     "desc": "Clip-on protection tested against real loading and unloading scuffs.",
     "page": "exterior-accessories.html",
@@ -130,6 +151,13 @@ window.MODMY_SEARCH_INDEX = [
     "desc": "Curb rash protection that also hides existing rim damage.",
     "page": "exterior-accessories.html",
     "id": "wheel-covers-with-rim-protection",
+    "section": "Exterior Accessories"
+  },
+  {
+    "title": "Mud Flaps",
+    "desc": "Easy no-drill install that keeps the OEM look while protecting from road debris.",
+    "page": "exterior-accessories.html",
+    "id": "mud-flaps",
     "section": "Exterior Accessories"
   },
   {
