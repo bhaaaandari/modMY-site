@@ -42,6 +42,41 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "Should I charge my Tesla to 100% every night?",
+    "desc": "Why 80% is the daily target and when 100% actually makes sense.",
+    "page": "tesla-faqs.html",
+    "id": "faq-charge-to-100",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Can I use an extension cord with the Tesla Mobile Connector?",
+    "desc": "Why a dedicated outlet is safer, and what to know if you can't avoid a cord.",
+    "page": "tesla-faqs.html",
+    "id": "faq-extension-cord",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Is it okay to leave my Tesla plugged in all the time?",
+    "desc": "How the car manages charging and battery temperature when it's parked and plugged in.",
+    "page": "tesla-faqs.html",
+    "id": "faq-leave-plugged-in",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Why is my Tesla losing battery overnight while parked?",
+    "desc": "Sentry Mode, Cabin Overheat Protection, and the other usual causes of phantom drain.",
+    "page": "tesla-faqs.html",
+    "id": "faq-phantom-drain",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Do I need a Tesla Wall Connector, or is the Mobile Connector enough?",
+    "desc": "When the Mobile Connector is plenty, and when a Wall Connector is worth it.",
+    "page": "tesla-faqs.html",
+    "id": "faq-wall-connector-vs-mobile",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "Contact",
     "desc": "Get in touch with modMY.",
     "page": "contact.html",
