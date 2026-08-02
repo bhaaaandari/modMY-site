@@ -28,6 +28,20 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Page"
   },
   {
+    "title": "Tesla FAQs",
+    "desc": "Quick answers to the questions Model Y owners ask most.",
+    "page": "tesla-faqs.html",
+    "id": "",
+    "section": "Page"
+  },
+  {
+    "title": "What settings/configurations optimize battery life?",
+    "desc": "Charge limit, scheduled departure, Sentry Mode, and the other settings that matter most for range.",
+    "page": "tesla-faqs.html",
+    "id": "faq-battery-settings",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "Contact",
     "desc": "Get in touch with modMY.",
     "page": "contact.html",
