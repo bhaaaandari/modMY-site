@@ -1234,10 +1234,26 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   display:block;
   background:var(--panel);
   border:1px solid var(--line);
-  padding:22px 20px;
+  overflow:hidden;
   transition:border-color .2s ease, background .2s ease;
 }
 .spotlight-card:hover{ border-color:var(--gold); background:var(--panel-2); }
+.spotlight-image{
+  height:160px;
+  background:var(--bg-2);
+  overflow:hidden;
+}
+.spotlight-image img{ width:100%; height:100%; object-fit:cover; display:block; }
+.spotlight-image-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--gold-soft);
+  background:
+    radial-gradient(220px 140px at 50% 30%, rgba(216,30,44,0.10), transparent 70%),
+    var(--bg-2);
+}
+.spotlight-body{ padding:20px 20px 22px; }
 .spotlight-tag{
   display:inline-block;
   font-family:var(--font-mono);
