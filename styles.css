@@ -382,7 +382,7 @@ h2.section-title{
    --------------------------------------------------------- */
 .cat-grid{
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap:1px;
   background:var(--line);
   border:1px solid var(--line);
@@ -428,10 +428,10 @@ h2.section-title{
 .cat-card .go svg{ transition:transform .22s ease; }
 .cat-card:hover .go svg{ transform:translateX(4px); }
 
-@media (max-width:980px){
+@media (max-width:900px){
   .cat-grid{ grid-template-columns:repeat(2,1fr); }
 }
-@media (max-width:560px){
+@media (max-width:600px){
   .cat-grid{ grid-template-columns:1fr; }
 }
 
@@ -1095,4 +1095,124 @@ table.guide-table tr:hover td{ background:var(--panel); }
   color:var(--white);
   margin:0;
   letter-spacing:0.01em;
+}
+
+/* ============================================================
+   Tesla FAQs page — accordion + plug-icon toggle
+   ============================================================ */
+.faq-list{ max-width:820px; margin:40px auto 0; display:flex; flex-direction:column; gap:14px; }
+
+.faq-item{
+  border:1px solid var(--line);
+  background:var(--panel);
+  transition:border-color .25s ease;
+}
+.faq-item.is-open{ border-color:var(--gold); }
+
+.faq-question{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:16px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  padding:20px 22px;
+  text-align:left;
+  font-family:var(--font-display);
+  font-weight:600;
+  font-size:16px;
+  letter-spacing:0.01em;
+  color:var(--white);
+  text-transform:none;
+}
+.faq-question:hover{ color:var(--gold-soft); }
+.faq-item.is-open .faq-question{ color:var(--gold-soft); }
+
+.faq-q-text{ flex:1 1 auto; }
+
+/* --- plug icon: sits left of each FAQ as its article marker,
+   and doubles as the open/close toggle (replaces a traditional chevron) --- */
+.plug-toggle{
+  flex:0 0 auto;
+  width:34px; height:34px;
+  display:flex; align-items:center; justify-content:center;
+  color:var(--muted);
+  transition:transform .35s cubic-bezier(.4,0,.2,1), color .3s ease;
+}
+.faq-item.is-open .plug-toggle{
+  color:var(--gold-soft);
+  transform:rotate(180deg);
+}
+.plug-toggle svg .plug-bolt{
+  opacity:0;
+  transition:opacity .3s ease .1s;
+  fill:var(--gold-soft);
+}
+.faq-item.is-open .plug-toggle svg .plug-bolt{ opacity:1; }
+.plug-toggle svg .plug-body,
+.plug-toggle svg .plug-prong{
+  transition:fill .3s ease, stroke .3s ease;
+}
+.faq-item.is-open .plug-toggle svg .plug-body{
+  fill:rgba(201,162,74,0.12);
+  stroke:var(--gold-soft);
+}
+.faq-item.is-open .plug-toggle svg .plug-prong{ stroke:var(--gold-soft); }
+
+.faq-panel{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .35s ease;
+}
+.faq-panel-inner{
+  padding:0 22px 26px;
+}
+.faq-panel-inner p{ color:var(--muted); font-size:15px; line-height:1.75; margin:0 0 18px; }
+.faq-panel-inner h4{
+  font-family:var(--font-display);
+  text-transform:uppercase;
+  font-size:14px;
+  letter-spacing:0.05em;
+  color:var(--white);
+  margin:22px 0 12px;
+}
+
+.faq-table-wrap{ overflow-x:auto; border:1px solid var(--line); margin:0 0 6px; }
+table.faq-table{ width:100%; border-collapse:collapse; font-size:13.5px; }
+table.faq-table th{
+  text-align:left;
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:0.07em;
+  text-transform:uppercase;
+  color:var(--red-bright);
+  background:var(--bg-2);
+  padding:12px 14px;
+  border-bottom:1px solid var(--line);
+}
+table.faq-table td{
+  padding:12px 14px;
+  border-bottom:1px solid var(--line-soft);
+  color:var(--muted);
+  vertical-align:top;
+  word-break:break-word;
+}
+table.faq-table td:first-child{ color:var(--white); font-weight:600; white-space:nowrap; }
+table.faq-table td.faq-val{ color:var(--gold-soft); font-family:var(--font-mono); font-weight:600; white-space:nowrap; }
+table.faq-table tr:last-child td{ border-bottom:none; }
+table.faq-table tr:hover td{ background:var(--bg-2); }
+
+@media (max-width:600px){
+  .faq-question{ padding:16px 16px; font-size:14.5px; gap:10px; }
+  .faq-panel-inner{ padding:0 16px 22px; }
+  .plug-toggle{ width:28px; height:28px; }
+  table.faq-table th, table.faq-table td{ padding:10px; font-size:12.5px; }
+}
+
+/* Nav: keep 6 items comfortable at the tablet breakpoint */
+@media (max-width:1250px){
+  .main-nav ul{ gap:18px; }
+  .main-nav a{ font-size:13px; }
 }
