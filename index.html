@@ -129,6 +129,14 @@
     </div>
   </section>
 
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title" style="margin-bottom:8px;">What People Are Actively Viewing</h2>
+      <p class="spotlight-sub">A rotating sample of pages across the site &mdash; refreshes every time you load this page.</p>
+      <div class="spotlight-grid" id="spotlightGrid"></div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div class="container">
       <div class="foot-brand"><img src="assets/logo-mark.png" alt="modMY" class="foot-logo"></div>
@@ -145,5 +153,32 @@
   </footer>
   <script src="assets/search-data.js"></script>
   <script src="nav.js"></script>
+  <script>
+    (function () {
+      var grid = document.getElementById('spotlightGrid');
+      var pool = (window.MODMY_SEARCH_INDEX || []).filter(function (item) {
+        return item.section !== 'Page'; // skip generic top-level nav entries, keep specific products/FAQs/guides
+      });
+      // shuffle
+      for (var i = pool.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+      }
+      var picks = pool.slice(0, 4);
+      function escapeHtml(s) {
+        return s.replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+      grid.innerHTML = picks.map(function (item) {
+        var href = item.page + (item.id ? '#' + item.id : '');
+        return '<a class="spotlight-card" href="' + href + '">' +
+          '<span class="spotlight-tag">' + escapeHtml(item.section) + '</span>' +
+          '<h4>' + escapeHtml(item.title) + '</h4>' +
+          '<p>' + escapeHtml(item.desc) + '</p>' +
+          '</a>';
+      }).join('');
+    })();
+  </script>
 </body>
 </html>

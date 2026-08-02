@@ -1216,3 +1216,51 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   .main-nav ul{ gap:18px; }
   .main-nav a{ font-size:13px; }
 }
+
+/* ============================================================
+   Homepage — "What People Are Actively Viewing" spotlight
+   ============================================================ */
+.spotlight-sub{
+  color:var(--muted);
+  font-size:14px;
+  margin:0 0 36px;
+}
+.spotlight-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:16px;
+}
+.spotlight-card{
+  display:block;
+  background:var(--panel);
+  border:1px solid var(--line);
+  padding:22px 20px;
+  transition:border-color .2s ease, background .2s ease;
+}
+.spotlight-card:hover{ border-color:var(--gold); background:var(--panel-2); }
+.spotlight-tag{
+  display:inline-block;
+  font-family:var(--font-mono);
+  font-size:10.5px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--red-bright);
+  margin:0 0 12px;
+}
+.spotlight-card h4{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:15.5px;
+  text-transform:uppercase;
+  color:var(--white);
+  margin:0 0 8px;
+  line-height:1.25;
+}
+.spotlight-card p{
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.55;
+  margin:0;
+}
+@media (max-width:900px){ .spotlight-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:560px){ .spotlight-grid{ grid-template-columns:1fr; } }
