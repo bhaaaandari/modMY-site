@@ -88,126 +88,144 @@ window.MODMY_SEARCH_INDEX = [
     "desc": "Fitment notes, materials, and liner comparisons.",
     "page": "interior-accessories.html",
     "id": "all-weather-floor-mats",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/610PLUcQoHL._AC_SL1453_.jpg"
   },
   {
     "title": "Center Console Organizer",
     "desc": "Storage add-ons for the tunnel and armrest.",
     "page": "interior-accessories.html",
     "id": "center-console-organizer",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61oyqPCG7EL._AC_SL1200_.jpg"
   },
   {
     "title": "Sunshade & Glass Roof",
     "desc": "Heat rejection and shade options for the panoramic roof.",
     "page": "interior-accessories.html",
     "id": "sunshade-and-glass-roof",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71pI+ZhF+rL._AC_SL1500_.jpg"
   },
   {
     "title": "Center Console Charging Hub",
     "desc": "Fast console charging, tested for fit and heat.",
     "page": "interior-accessories.html",
     "id": "center-console-charging-hub",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61-8WvlpYPL._AC_SL1080_.jpg"
   },
   {
     "title": "Under Screen Storage Organizer",
     "desc": "A snug-fitting tray under the touchscreen, tested for daily use.",
     "page": "interior-accessories.html",
     "id": "under-screen-storage-organizer",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61fsC7FNtQL._AC_SL1500_.jpg"
   },
   {
     "title": "Camping Air Mattress",
     "desc": "Trunk-fitting air mattress tested for overnight road trips.",
     "page": "interior-accessories.html",
     "id": "camping-air-mattress",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71XMsQ-3DQL._AC_SL1500_.jpg"
   },
   {
     "title": "Performance Pedals",
     "desc": "Cosmetic pedal covers with secure, no-slip fitment.",
     "page": "interior-accessories.html",
     "id": "performance-pedals",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71V1MYinihL._AC_SL1200_.jpg"
   },
   {
     "title": "Portable Tire Inflator",
     "desc": "Compact tire inflator tested for accuracy and speed.",
     "page": "interior-accessories.html",
     "id": "portable-tire-inflator",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61pmeh4eBwL._AC_SL1500_.jpg"
   },
   {
     "title": "Emergency Flashlight + Utilities",
     "desc": "Multifunctional flashlight with window breaker, seatbelt cutter, strobe & SOS.",
     "page": "interior-accessories.html",
     "id": "emergency-flashlight-utilities",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61+EqB5JS5L._AC_SL1000_.jpg"
   },
   {
     "title": "Screen Protector",
     "desc": "Matte finish reduces glare and keeps fingerprints off the touchscreen.",
     "page": "interior-accessories.html",
     "id": "screen-protector",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71Zart1KGaL._AC_SL1500_.jpg"
   },
   {
     "title": "Vegan Leather Cleaner",
     "desc": "Formulated specifically for Tesla's vegan leather seats.",
     "page": "interior-accessories.html",
     "id": "vegan-leather-cleaner",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71nB-jzkVBL._AC_SL1500_.jpg"
   },
   {
     "title": "Trunk Mood Accent Lighting",
     "desc": "Tool-free trunk lighting with adjustable brightness.",
     "page": "interior-accessories.html",
     "id": "trunk-mood-accent-lighting",
-    "section": "Interior Accessories"
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71UNVj63cyL._AC_SL1500_.jpg"
   },
   {
     "title": "Rear Bumper Guard",
     "desc": "Clip-on protection tested against real loading and unloading scuffs.",
     "page": "exterior-accessories.html",
     "id": "rear-bumper-guard",
-    "section": "Exterior Accessories"
+    "section": "Exterior Accessories",
+    "img": "https://m.media-amazon.com/images/I/715gCznYhlL._AC_SL1500_.jpg"
   },
   {
     "title": "CAR GUYS Plastic Restorer",
     "desc": "Restores faded black trim, tested against rain and repeated washes.",
     "page": "exterior-accessories.html",
     "id": "car-guys-plastic-restorer",
-    "section": "Exterior Accessories"
+    "section": "Exterior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71IdNv1JM7L._AC_SL1500_.jpg"
   },
   {
     "title": "Auto Paint Protection Film",
     "desc": "Rock chip protection for the rear quarter panels, DIY install.",
     "page": "exterior-accessories.html",
     "id": "auto-paint-protection-film",
-    "section": "Exterior Accessories"
+    "section": "Exterior Accessories",
+    "img": "https://m.media-amazon.com/images/I/51uCrFAeLZL._AC_SL1200_.jpg"
   },
   {
     "title": "No Drill Front License Plate Holder",
     "desc": "Secure mount using existing points, no bumper drilling.",
     "page": "exterior-accessories.html",
     "id": "no-drill-front-license-plate-holder",
-    "section": "Exterior Accessories"
+    "section": "Exterior Accessories",
+    "img": "https://m.media-amazon.com/images/I/616wfejQEdL._AC_SL1500_.jpg"
   },
   {
     "title": "Wheel Covers with Rim Protection",
     "desc": "Curb rash protection that also hides existing rim damage.",
     "page": "exterior-accessories.html",
     "id": "wheel-covers-with-rim-protection",
-    "section": "Exterior Accessories"
+    "section": "Exterior Accessories",
+    "img": "https://m.media-amazon.com/images/I/81xkOtl+IxL._AC_SL1500_.jpg"
   },
   {
     "title": "Mud Flaps",
     "desc": "Easy no-drill install that keeps the OEM look while protecting from road debris.",
     "page": "exterior-accessories.html",
     "id": "mud-flaps",
-    "section": "Exterior Accessories"
+    "section": "Exterior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61uBb3B4SML._AC_SL1500_.jpg"
   },
   {
     "title": "Coilover Comparison",
@@ -256,27 +274,31 @@ window.MODMY_SEARCH_INDEX = [
     "desc": "Jack points, torque specs, and rotation pattern, sourced from Tesla's Service Manual.",
     "page": "tire-rotation-guide.html",
     "id": "",
-    "section": "DIY / Maintenance"
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/tire-rotation-guide.svg"
   },
   {
     "title": "Cabin Air Filter Swap",
     "desc": "Behind-the-console filter replacement, step by step, sourced from Tesla's documentation.",
     "page": "cabin-air-filter-swap.html",
     "id": "",
-    "section": "DIY / Maintenance"
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/cabin-air-filter-swap.svg"
   },
   {
     "title": "Service Mode",
     "desc": "How to enter, exit, and what diagnostic data it exposes across trims and years.",
     "page": "service-mode.html",
     "id": "",
-    "section": "DIY / Maintenance"
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/service-mode.svg"
   },
   {
     "title": "Wheel Torque Reference",
     "desc": "Factory torque specs by wheel size, sourced from Tesla's Owner's and Service Manuals.",
     "page": "wheel-torque-reference.html",
     "id": "",
-    "section": "DIY / Maintenance"
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/wheel-torque-reference.svg"
   }
 ];
