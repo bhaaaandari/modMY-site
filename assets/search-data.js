@@ -77,6 +77,41 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "Does using Superchargers damage the battery?",
+    "desc": "How the Battery Management System protects the battery during DC fast charging.",
+    "page": "tesla-faqs.html",
+    "id": "faq-supercharger-battery-damage",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Why is my displayed range lower than when I bought the car?",
+    "desc": "EPA estimates vs. real-world range, and why the Energy app is more accurate.",
+    "page": "tesla-faqs.html",
+    "id": "faq-displayed-range-lower",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "What's the difference between Regenerative Braking and One-Pedal Driving?",
+    "desc": "How the two are related and what each one does for range and brake wear.",
+    "page": "tesla-faqs.html",
+    "id": "faq-regen-braking-vs-one-pedal",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Can I take my Tesla through an automatic car wash?",
+    "desc": "When it's safe, and how to use Car Wash Mode before you go in.",
+    "page": "tesla-faqs.html",
+    "id": "faq-automatic-car-wash",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "Is it okay to leave the car parked for several weeks?",
+    "desc": "How to store the car safely when it'll sit unattended for an extended period.",
+    "page": "tesla-faqs.html",
+    "id": "faq-parked-several-weeks",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "Contact",
     "desc": "Get in touch with modMY.",
     "page": "contact.html",
