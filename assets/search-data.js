@@ -222,6 +222,54 @@ window.MODMY_SEARCH_INDEX = [
     "img": "https://m.media-amazon.com/images/I/71UNVj63cyL._AC_SL1500_.jpg"
   },
   {
+    "title": "Center Console Armrest Cover",
+    "desc": "Slides onto the factory armrest to prevent wear and divots.",
+    "page": "interior-accessories.html",
+    "id": "center-console-armrest-cover",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61sMl4cLuVL._AC_SL1200_.jpg"
+  },
+  {
+    "title": "Portable Duster/Vacuum",
+    "desc": "Compact suction and blower, handy for interior messes and the frunk.",
+    "page": "interior-accessories.html",
+    "id": "portable-duster-vacuum",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/616MQtMRnJL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Headrest Pillows (2PK)",
+    "desc": "Comfort upgrade for road trips, with adjustable filling included.",
+    "page": "interior-accessories.html",
+    "id": "headrest-pillows",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61a8eHRtRhL._AC_SL1001_.jpg"
+  },
+  {
+    "title": "Cup Holder Inserts",
+    "desc": "Silicone inserts that stop drinks from sliding, fits up to 31 oz.",
+    "page": "interior-accessories.html",
+    "id": "cup-holder-inserts",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/51FIpJcaicL._AC_SL1200_.jpg"
+  },
+  {
+    "title": "Front Windshield Sun Shade",
+    "desc": "Full windshield coverage that holds its shape and blocks real heat.",
+    "page": "interior-accessories.html",
+    "id": "front-windshield-sun-shade",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61mUysaICKL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Universal Tire Repair Kit",
+    "desc": "Peace of mind for a car with no spare tire.",
+    "page": "interior-accessories.html",
+    "id": "universal-tire-repair-kit",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71WQIioLGSL._AC_SL1500_.jpg"
+  },
+  {
     "title": "Rear Bumper Guard",
     "desc": "Clip-on protection tested against real loading and unloading scuffs.",
     "page": "exterior-accessories.html",
