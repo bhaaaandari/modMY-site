@@ -112,6 +112,13 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "What are some useful commands for Grok?",
+    "desc": "Navigation, climate, vehicle control, media, productivity, and entertainment commands added in the Tesla Summer Update.",
+    "page": "tesla-faqs.html",
+    "id": "faq-grok-commands",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "Contact",
     "desc": "Get in touch with modMY.",
     "page": "contact.html",
