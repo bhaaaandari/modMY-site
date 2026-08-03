@@ -103,6 +103,38 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // ---------------------------------------------------------
+  // Track every "View on Amazon" click as a GA4 event.
+  // Fires on any outbound link.amazon URL, wherever it appears
+  // (product cards, DIY guide materials lists, etc) — no per-link
+  // markup changes needed, this just listens site-wide.
+  // ---------------------------------------------------------
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest('a[href*="link.amazon"]');
+    if (!link) return;
+
+    var productName = null;
+    var card = link.closest('.product-card');
+    if (card) {
+      var h4 = card.querySelector('h4');
+      if (h4) productName = h4.textContent.trim();
+    }
+    if (!productName) {
+      var li = link.closest('li');
+      var matName = li && li.querySelector('.mat-name');
+      if (matName) productName = matName.textContent.trim();
+    }
+    if (!productName) productName = link.textContent.trim();
+
+    if (typeof gtag === 'function') {
+      gtag('event', 'view_amazon', {
+        product_name: productName,
+        link_url: link.href,
+        page_path: window.location.pathname
+      });
+    }
+  });
+
+  // ---------------------------------------------------------
   // On arrival via a search result: scroll to and highlight the target
   // ---------------------------------------------------------
   if (window.location.hash) {
