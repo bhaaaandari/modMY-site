@@ -127,6 +127,13 @@
     </div>
   </section>
 
+  <section class="section section-alt" style="padding-top:48px;">
+    <div class="container">
+      <h2 class="section-title" style="margin-bottom:36px;">What People Are Actively Viewing</h2>
+      <div class="spotlight-grid" id="spotlightGrid"></div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div class="container">
       <div class="foot-brand"><img src="assets/logo-mark.png" alt="modMY" class="foot-logo"></div>
@@ -143,5 +150,48 @@
   </footer>
   <script src="assets/search-data.js"></script>
   <script src="nav.js"></script>
+  <script>
+    (function () {
+      var grid = document.getElementById('spotlightGrid');
+      var PLUG_ICON = '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<line x1="9" y1="2" x2="9" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '<line x1="15" y1="2" x2="15" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '<path d="M6 8h12v5a6 6 0 0 1-12 0V8z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/>' +
+        '<path d="M13 10.2 9.6 14.6h2.1l-.6 3.2 3.4-4.6h-2.1l.6-3z" fill="currentColor"/>' +
+        '<line x1="12" y1="19" x2="12" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '<path d="M8 22h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '</svg>';
+      // only surface items that have a real photo/diagram, or FAQs (which get the plug icon) —
+      // skips generic nav-level entries and the still-under-construction Suspension placeholders;
+      // also excludes items belonging to this same page
+      var pool = (window.MODMY_SEARCH_INDEX || []).filter(function (item) {
+        return (item.img || item.section === 'Tesla FAQs') && item.page !== 'exterior-accessories.html';
+      });
+      // shuffle
+      for (var i = pool.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+      }
+      var picks = pool.slice(0, 4);
+      function escapeHtml(s) {
+        return s.replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+      grid.innerHTML = picks.map(function (item) {
+        var href = item.page + (item.id ? '#' + item.id : '');
+        var imageHtml = item.img
+          ? '<div class="spotlight-image"><img src="' + item.img + '" alt="' + escapeHtml(item.title) + '" loading="lazy"></div>'
+          : '<div class="spotlight-image spotlight-image-icon">' + PLUG_ICON + '</div>';
+        return '<a class="spotlight-card" href="' + href + '">' +
+          imageHtml +
+          '<div class="spotlight-body">' +
+          '<span class="spotlight-tag">' + escapeHtml(item.section) + '</span>' +
+          '<h4>' + escapeHtml(item.title) + '</h4>' +
+          '<p>' + escapeHtml(item.desc) + '</p>' +
+          '</div></a>';
+      }).join('');
+    })();
+  </script>
 </body>
 </html>
