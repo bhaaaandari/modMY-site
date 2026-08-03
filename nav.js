@@ -104,12 +104,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // ---------------------------------------------------------
   // Track every "View on Amazon" click as a GA4 event.
-  // Fires on any outbound link.amazon URL, wherever it appears
-  // (product cards, DIY guide materials lists, etc) — no per-link
-  // markup changes needed, this just listens site-wide.
+  // Fires on any outbound Amazon link (link.amazon or amzn.to),
+  // wherever it appears (product cards, DIY guide materials
+  // lists, etc) — no per-link markup changes needed, this just
+  // listens site-wide.
   // ---------------------------------------------------------
   document.addEventListener('click', function (e) {
-    var link = e.target.closest('a[href*="link.amazon"]');
+    var link = e.target.closest('a[href*="link.amazon"], a[href*="amzn.to"]');
     if (!link) return;
 
     var productName = null;
