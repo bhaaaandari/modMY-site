@@ -214,6 +214,14 @@ window.MODMY_SEARCH_INDEX = [
     "img": "https://m.media-amazon.com/images/I/71nB-jzkVBL._AC_SL1500_.jpg"
   },
   {
+    "title": "Leather Shield (Ceramic)",
+    "desc": "Ceramic sealant that pairs with the Vegan Leather Cleaner to protect against stains.",
+    "page": "interior-accessories.html",
+    "id": "leather-shield-ceramic",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61NLfc31YeL._AC_SL1500_.jpg"
+  },
+  {
     "title": "Trunk Mood Accent Lighting",
     "desc": "Tool-free trunk lighting with adjustable brightness.",
     "page": "interior-accessories.html",
