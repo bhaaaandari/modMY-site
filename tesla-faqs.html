@@ -681,6 +681,13 @@ src="https://www.facebook.com/tr?id=1596601288472084&ev=PageView&noscript=1"
             }
           });
           openFaqItem(item);
+          // once the collapse/expand animations settle, bring the clicked
+          // FAQ back into view if the layout shift pushed it off-screen
+          // (e.g. a long FAQ above it just collapsed) — 'nearest' means
+          // it won't jump the page around if it's already visible
+          setTimeout(function () {
+            item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 360);
         }
       });
     });

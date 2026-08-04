@@ -1106,6 +1106,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   border:1px solid var(--line);
   background:var(--panel);
   transition:border-color .25s ease;
+  scroll-margin-top:96px;
 }
 .faq-item.is-open{ border-color:var(--gold); }
 
