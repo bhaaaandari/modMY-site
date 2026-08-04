@@ -222,6 +222,46 @@ window.MODMY_SEARCH_INDEX = [
     "img": "https://m.media-amazon.com/images/I/61NLfc31YeL._AC_SL1500_.jpg"
   },
   {
+    "title": "Microfiber Drying Towel",
+    "desc": "Quickly pulls water off the exterior to beat water spots.",
+    "page": "interior-accessories.html",
+    "id": "microfiber-drying-towel",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71CdoJLxBGL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Chenille Microfiber Wash Mitt",
+    "desc": "Chemical Guys quality, no fuzzies left behind even on first use.",
+    "page": "interior-accessories.html",
+    "id": "chenille-microfiber-wash-mitt",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/814Ghg5zU2L._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Car Wash Soap",
+    "desc": "Works with a foam cannon or a bucket, lathers well, nice shine.",
+    "page": "interior-accessories.html",
+    "id": "car-wash-soap",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71qfl90YV7L._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Pack of Microfiber Towels",
+    "desc": "Multi-purpose towels kept in the car, trunk, and garage.",
+    "page": "interior-accessories.html",
+    "id": "pack-of-microfiber-towels",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/81NSjqrmC4L._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Glass Cleaner Spray",
+    "desc": "Leaves fewer streaks than other glass cleaners tried so far.",
+    "page": "interior-accessories.html",
+    "id": "glass-cleaner-spray",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/71b6uunokwL._AC_SL1000_.jpg"
+  },
+  {
     "title": "Trunk Mood Accent Lighting",
     "desc": "Tool-free trunk lighting with adjustable brightness.",
     "page": "interior-accessories.html",
