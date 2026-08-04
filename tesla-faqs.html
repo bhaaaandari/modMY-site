@@ -648,20 +648,39 @@ src="https://www.facebook.com/tr?id=1596601288472084&ev=PageView&noscript=1"
     })();
   </script>
   <script>
-    document.querySelectorAll('.faq-item').forEach(function (item) {
+    var allFaqItems = document.querySelectorAll('.faq-item');
+
+    function closeFaqItem(item) {
       var btn = item.querySelector('.faq-question');
       var panel = item.querySelector('.faq-panel');
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+      requestAnimationFrame(function () { panel.style.maxHeight = '0px'; });
+      item.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+
+    function openFaqItem(item) {
+      var btn = item.querySelector('.faq-question');
+      var panel = item.querySelector('.faq-panel');
+      item.classList.add('is-open');
+      btn.setAttribute('aria-expanded', 'true');
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
+
+    allFaqItems.forEach(function (item) {
+      var btn = item.querySelector('.faq-question');
       btn.addEventListener('click', function () {
         var isOpen = item.classList.contains('is-open');
         if (isOpen) {
-          panel.style.maxHeight = panel.scrollHeight + 'px';
-          requestAnimationFrame(function () { panel.style.maxHeight = '0px'; });
-          item.classList.remove('is-open');
-          btn.setAttribute('aria-expanded', 'false');
+          closeFaqItem(item);
         } else {
-          item.classList.add('is-open');
-          btn.setAttribute('aria-expanded', 'true');
-          panel.style.maxHeight = panel.scrollHeight + 'px';
+          // close any other open FAQ first, so only one is ever expanded
+          allFaqItems.forEach(function (other) {
+            if (other !== item && other.classList.contains('is-open')) {
+              closeFaqItem(other);
+            }
+          });
+          openFaqItem(item);
         }
       });
     });
