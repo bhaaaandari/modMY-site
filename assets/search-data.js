@@ -43,9 +43,16 @@ window.MODMY_SEARCH_INDEX = [
   },
   {
     "title": "What should I check before buying a used Tesla Model Y?",
-    "desc": "Paperwork, battery health, Autopilot hardware, body/suspension checks, and warranty status to verify before you buy.",
+    "desc": "Paperwork, battery health, Autopilot hardware, Service Mode diagnostics, body/suspension checks, and warranty status to verify before you buy.",
     "page": "tesla-faqs.html",
     "id": "faq-used-tesla-checklist",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "How do I get 3 months of free FSD on a new Tesla?",
+    "desc": "Referral link details for new-buyer FSD trials, and why existing owners don't personally benefit but can still support the site.",
+    "page": "tesla-faqs.html",
+    "id": "faq-free-fsd-referral",
     "section": "Tesla FAQs"
   },
   {
