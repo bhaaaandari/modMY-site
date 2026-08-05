@@ -42,6 +42,13 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "What should I check before buying a used Tesla Model Y?",
+    "desc": "Paperwork, battery health, Autopilot hardware, body/suspension checks, and warranty status to verify before you buy.",
+    "page": "tesla-faqs.html",
+    "id": "faq-used-tesla-checklist",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "Should I charge my Tesla to 100% every night?",
     "desc": "Why 80% is the daily target and when 100% actually makes sense.",
     "page": "tesla-faqs.html",
