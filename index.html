@@ -221,5 +221,34 @@ src="https://www.facebook.com/tr?id=1596601288472084&ev=PageView&noscript=1"
       }).join('');
     })();
   </script>
+
+  <div class="buyer-popup" id="buyerPopup">
+    <button class="buyer-popup-close" id="buyerPopupClose" aria-label="Dismiss">&times;</button>
+    <p class="buyer-popup-eyebrow">// Before You Buy</p>
+    <h4>Buying a Used Model Y?</h4>
+    <p class="buyer-popup-text">Battery health, Autopilot hardware, warranty status, and more &mdash; see our full pre-purchase checklist first.</p>
+    <a href="tesla-faqs.html#faq-used-tesla-checklist" class="buyer-popup-btn">Let Me See It</a>
+  </div>
+
+  <script>
+    (function () {
+      var popup = document.getElementById('buyerPopup');
+      var closeBtn = document.getElementById('buyerPopupClose');
+      var DISMISS_KEY = 'modmy_buyer_popup_dismissed';
+
+      if (sessionStorage.getItem(DISMISS_KEY)) {
+        return; // already dismissed this session, don't show it again
+      }
+
+      setTimeout(function () {
+        popup.classList.add('is-visible');
+      }, 1800);
+
+      closeBtn.addEventListener('click', function () {
+        popup.classList.remove('is-visible');
+        sessionStorage.setItem(DISMISS_KEY, '1');
+      });
+    })();
+  </script>
 </body>
 </html>

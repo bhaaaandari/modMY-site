@@ -1281,3 +1281,79 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
 }
 @media (max-width:900px){ .spotlight-grid{ grid-template-columns:repeat(2,1fr); } }
 @media (max-width:560px){ .spotlight-grid{ grid-template-columns:1fr; } }
+
+/* ============================================================
+   Homepage — used-Tesla-buyer dismissible corner popup
+   ============================================================ */
+.buyer-popup{
+  position:fixed;
+  right:24px;
+  bottom:-260px;
+  width:320px;
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-top:2px dashed var(--red-bright);
+  border-bottom:2px dashed var(--red-bright);
+  padding:22px 22px 24px;
+  z-index:950;
+  box-shadow:0 12px 34px rgba(0,0,0,0.5);
+  transition:bottom .5s cubic-bezier(.2,.8,.2,1);
+}
+.buyer-popup.is-visible{ bottom:24px; }
+
+.buyer-popup-close{
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:26px;
+  height:26px;
+  border:none;
+  background:transparent;
+  color:var(--muted);
+  font-size:18px;
+  line-height:1;
+  cursor:pointer;
+  transition:color .2s ease;
+}
+.buyer-popup-close:hover{ color:var(--white); }
+
+.buyer-popup-eyebrow{
+  font-family:var(--font-mono);
+  font-size:10.5px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--red-bright);
+  margin:0 0 8px;
+}
+.buyer-popup h4{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:19px;
+  text-transform:uppercase;
+  color:var(--white);
+  margin:0 0 10px;
+}
+.buyer-popup-text{
+  color:var(--muted);
+  font-size:13.5px;
+  line-height:1.6;
+  margin:0 0 18px;
+}
+.buyer-popup-btn{
+  display:block;
+  text-align:center;
+  background:var(--red);
+  color:#fff;
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:14px;
+  letter-spacing:0.03em;
+  text-transform:uppercase;
+  padding:12px 18px;
+  transition:background .2s ease;
+}
+.buyer-popup-btn:hover{ background:#b8121f; }
+
+@media (max-width:480px){
+  .buyer-popup{ right:12px; left:12px; width:auto; }
+}
