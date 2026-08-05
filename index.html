@@ -222,32 +222,46 @@ src="https://www.facebook.com/tr?id=1596601288472084&ev=PageView&noscript=1"
     })();
   </script>
 
-  <div class="buyer-popup" id="buyerPopup">
-    <button class="buyer-popup-close" id="buyerPopupClose" aria-label="Dismiss">&times;</button>
-    <p class="buyer-popup-eyebrow">// Before You Buy</p>
-    <h4>Buying a Used Model Y?</h4>
-    <p class="buyer-popup-text">Battery health, Autopilot hardware, warranty status, and more &mdash; see our full pre-purchase checklist first.</p>
-    <a href="tesla-faqs.html#faq-used-tesla-checklist" class="buyer-popup-btn">Let Me See It</a>
+  <div class="buyer-popup-stack">
+    <div class="side-popup" id="fsdPopup">
+      <button class="side-popup-close" id="fsdPopupClose" aria-label="Dismiss">&times;</button>
+      <p class="side-popup-eyebrow">// Free Offer</p>
+      <h4>Want Free FSD for 3 Months?</h4>
+      <p class="side-popup-text">New Tesla orders can qualify for 3 months of Full Self-Driving, free, when applied at checkout.</p>
+      <a href="tesla-faqs.html#faq-free-fsd-referral" class="side-popup-btn">Learn More</a>
+    </div>
+
+    <div class="side-popup" id="buyerPopup">
+      <button class="side-popup-close" id="buyerPopupClose" aria-label="Dismiss">&times;</button>
+      <p class="side-popup-eyebrow">// Before You Buy</p>
+      <h4>Buying a Used Model Y?</h4>
+      <p class="side-popup-text">Battery health, Autopilot hardware, warranty status, and more &mdash; see our full pre-purchase checklist first.</p>
+      <a href="tesla-faqs.html#faq-used-tesla-checklist" class="side-popup-btn">Let Me See It</a>
+    </div>
   </div>
 
   <script>
     (function () {
-      var popup = document.getElementById('buyerPopup');
-      var closeBtn = document.getElementById('buyerPopupClose');
-      var DISMISS_KEY = 'modmy_buyer_popup_dismissed';
+      function setupPopup(popupId, closeBtnId, dismissKey, delayMs) {
+        var popup = document.getElementById(popupId);
+        var closeBtn = document.getElementById(closeBtnId);
 
-      if (sessionStorage.getItem(DISMISS_KEY)) {
-        return; // already dismissed this session, don't show it again
+        if (sessionStorage.getItem(dismissKey)) {
+          return; // already dismissed this session, don't show it again
+        }
+
+        setTimeout(function () {
+          popup.classList.add('is-visible');
+        }, delayMs);
+
+        closeBtn.addEventListener('click', function () {
+          popup.classList.remove('is-visible');
+          sessionStorage.setItem(dismissKey, '1');
+        });
       }
 
-      setTimeout(function () {
-        popup.classList.add('is-visible');
-      }, 600);
-
-      closeBtn.addEventListener('click', function () {
-        popup.classList.remove('is-visible');
-        sessionStorage.setItem(DISMISS_KEY, '1');
-      });
+      setupPopup('fsdPopup', 'fsdPopupClose', 'modmy_fsd_popup_dismissed', 500);
+      setupPopup('buyerPopup', 'buyerPopupClose', 'modmy_buyer_popup_dismissed', 1100);
     })();
   </script>
 </body>

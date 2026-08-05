@@ -1287,26 +1287,37 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
 @media (max-width:560px){ .spotlight-grid{ grid-template-columns:1fr; } }
 
 /* ============================================================
-   Homepage — used-Tesla-buyer dismissible corner popup
+   Homepage — dismissible side popups (FSD offer + used-buyer
+   checklist), stacked left-middle of the viewport
    ============================================================ */
-.buyer-popup{
+.buyer-popup-stack{
   position:fixed;
-  left:-380px;
+  left:16px;
   top:50%;
   transform:translateY(-50%);
+  z-index:950;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  pointer-events:none;
+}
+
+.side-popup{
+  pointer-events:auto;
   width:320px;
   background:var(--panel);
   border:1px solid var(--line);
   border-top:2px dashed var(--red-bright);
   border-bottom:2px dashed var(--red-bright);
   padding:22px 22px 24px;
-  z-index:950;
   box-shadow:0 12px 34px rgba(0,0,0,0.5);
-  transition:left .5s cubic-bezier(.2,.8,.2,1);
+  opacity:0;
+  transform:translateX(-420px);
+  transition:transform .5s cubic-bezier(.2,.8,.2,1), opacity .4s ease;
 }
-.buyer-popup.is-visible{ left:24px; }
+.side-popup.is-visible{ opacity:1; transform:translateX(0); }
 
-.buyer-popup-close{
+.side-popup-close{
   position:absolute;
   top:10px;
   right:10px;
@@ -1320,9 +1331,11 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   cursor:pointer;
   transition:color .2s ease;
 }
-.buyer-popup-close:hover{ color:var(--white); }
+.side-popup-close:hover{ color:var(--white); }
 
-.buyer-popup-eyebrow{
+.side-popup{ position:relative; }
+
+.side-popup-eyebrow{
   font-family:var(--font-mono);
   font-size:10.5px;
   letter-spacing:0.1em;
@@ -1330,7 +1343,7 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   color:var(--red-bright);
   margin:0 0 8px;
 }
-.buyer-popup h4{
+.side-popup h4{
   font-family:var(--font-display);
   font-weight:700;
   font-size:19px;
@@ -1338,13 +1351,13 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   color:var(--white);
   margin:0 0 10px;
 }
-.buyer-popup-text{
+.side-popup-text{
   color:var(--muted);
   font-size:13.5px;
   line-height:1.6;
   margin:0 0 18px;
 }
-.buyer-popup-btn{
+.side-popup-btn{
   display:block;
   text-align:center;
   background:var(--red);
@@ -1357,9 +1370,9 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   padding:12px 18px;
   transition:background .2s ease;
 }
-.buyer-popup-btn:hover{ background:#b8121f; }
+.side-popup-btn:hover{ background:#b8121f; }
 
 @media (max-width:480px){
-  .buyer-popup{ left:-100%; right:12px; width:auto; }
-  .buyer-popup.is-visible{ left:12px; }
+  .buyer-popup-stack{ left:0; right:0; width:100%; padding:0 12px; align-items:stretch; }
+  .side-popup{ width:auto; transform:translateX(-120%); }
 }
