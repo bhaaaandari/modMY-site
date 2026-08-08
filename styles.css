@@ -827,6 +827,13 @@ table.guide-table tr:hover td{ background:var(--panel); }
   letter-spacing:0.01em;
 }
 .guide-steps p{ color:var(--muted); font-size:15px; line-height:1.7; margin:0 0 10px; }
+.step-image{
+  border:1px solid var(--line);
+  overflow:hidden;
+  margin:14px 0 4px;
+  background:var(--bg-2);
+}
+.step-image img{ width:100%; height:auto; display:block; }
 .guide-steps ul{ margin:8px 0 0; padding:0 0 0 18px; }
 .guide-steps ul li{ color:var(--muted); font-size:14.5px; line-height:1.7; margin-bottom:6px; }
 
