@@ -830,6 +830,32 @@ table.guide-table tr:hover td{ background:var(--panel); }
 .guide-steps ul{ margin:8px 0 0; padding:0 0 0 18px; }
 .guide-steps ul li{ color:var(--muted); font-size:14.5px; line-height:1.7; margin-bottom:6px; }
 
+.guide-steps ol.guide-substeps{
+  counter-reset:substep;
+  list-style:none;
+  margin:10px 0 0;
+  padding:0;
+}
+.guide-steps ol.guide-substeps > li{
+  counter-increment:substep;
+  position:relative;
+  padding:0 0 0 40px;
+  margin-bottom:10px;
+  color:var(--muted);
+  font-size:14.5px;
+  line-height:1.7;
+}
+.guide-steps ol.guide-substeps > li:last-child{ margin-bottom:0; }
+.guide-steps ol.guide-substeps > li::before{
+  content:counter(step) "." counter(substep);
+  position:absolute;
+  left:0; top:1px;
+  font-family:var(--font-mono);
+  font-weight:700;
+  font-size:12px;
+  color:var(--red-bright);
+}
+
 
 /* ---------------------------------------------------------
    Contact page
