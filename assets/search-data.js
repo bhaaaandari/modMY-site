@@ -435,7 +435,15 @@ window.MODMY_SEARCH_INDEX = [
     "page": "cabin-air-filter-swap.html",
     "id": "",
     "section": "DIY / Maintenance",
-    "img": "assets/guides/cabin-air-filter-swap.svg"
+    "img": "assets/guides/cabin-air-filter-swap-thumb.jpg"
+  },
+  {
+    "title": "Frunk Filter Swap",
+    "desc": "Ten screws, four filters — the up-front filter housing, step by step.",
+    "page": "frunk-filter-swap.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/frunk-filter-swap-thumb.jpg"
   },
   {
     "title": "Service Mode",
