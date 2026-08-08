@@ -240,7 +240,14 @@ ul{ margin:0; padding:0; list-style:none; }
 }
 
 @media (max-width:1100px){
-  .site-search{ display:none; }
+  .site-search{
+    order:3;
+    flex:0 0 100%;
+    margin-left:0;
+  }
+  .search-input{ width:100%; }
+  .search-input:focus{ width:100%; }
+  .search-results{ width:100%; left:0; right:0; }
 }
 
 /* ---------------------------------------------------------
@@ -948,15 +955,24 @@ table.guide-table tr:hover td{ background:var(--panel); }
    Mobile nav
    --------------------------------------------------------- */
 @media (max-width:1100px){
-  .nav-toggle{ display:inline-flex; align-items:center; justify-content:center; }
+  .site-header .container{
+    flex-wrap:wrap;
+    height:auto;
+    padding-top:14px;
+    padding-bottom:14px;
+    row-gap:12px;
+    position:relative;
+  }
+  .nav-toggle{ display:inline-flex; align-items:center; justify-content:center; order:2; }
   .main-nav{
-    position:fixed;
-    top:78px; left:0; right:0;
+    position:absolute;
+    top:100%; left:0; right:0;
     background:rgba(10,10,11,0.98);
     border-bottom:1px solid var(--line);
     max-height:0;
     overflow:hidden;
     transition:max-height .3s ease;
+    z-index:1100;
   }
   .main-nav.open{ max-height:400px; }
   .main-nav ul{
