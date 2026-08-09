@@ -126,6 +126,48 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "Where are the jack points on a Tesla Model Y?",
+    "desc": "The four reinforced pinch-weld points, and why you need a jack pad or lift puck.",
+    "page": "tesla-faqs.html",
+    "id": "faq-jack-points",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "What's the correct wheel torque spec for a Tesla Model Y?",
+    "desc": "129 lb\u00b7ft (175 Nm) across every trim and wheel size, plus when to re-torque.",
+    "page": "tesla-faqs.html",
+    "id": "faq-wheel-torque-spec",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "How do I replace the cabin air filter on a Tesla Model Y?",
+    "desc": "Where it lives behind the center console and what tools you'll need.",
+    "page": "tesla-faqs.html",
+    "id": "faq-cabin-air-filter",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "How do I replace the frunk filter on a Tesla Model Y?",
+    "desc": "Where the frunk filter system sits and what makes it different from the cabin filter.",
+    "page": "tesla-faqs.html",
+    "id": "faq-frunk-filter",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "How do I enter Service Mode on a Tesla Model Y?",
+    "desc": "The touchscreen sequence to trigger it, and what the red border means.",
+    "page": "tesla-faqs.html",
+    "id": "faq-service-mode-entry",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "How do I clean my Tesla Model Y's radiator?",
+    "desc": "Why debris builds up behind the frunk and what it takes to get in there.",
+    "page": "tesla-faqs.html",
+    "id": "faq-radiator-cleaning-entry",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "What are some useful commands for Grok?",
     "desc": "Navigation, climate, vehicle control, media, productivity, and entertainment commands added in the Tesla Summer Update.",
     "page": "tesla-faqs.html",
