@@ -427,7 +427,7 @@ window.MODMY_SEARCH_INDEX = [
     "page": "tire-rotation-guide.html",
     "id": "",
     "section": "DIY / Maintenance",
-    "img": "assets/guides/tire-rotation-guide.svg"
+    "img": "assets/guides/tire-rotation-guide-thumb.jpg"
   },
   {
     "title": "Cabin Air Filter Swap",
@@ -451,7 +451,7 @@ window.MODMY_SEARCH_INDEX = [
     "page": "service-mode.html",
     "id": "",
     "section": "DIY / Maintenance",
-    "img": "assets/guides/service-mode.svg"
+    "img": "assets/guides/service-mode-thumb.jpg"
   },
   {
     "title": "Wheel Torque Reference",
@@ -459,6 +459,14 @@ window.MODMY_SEARCH_INDEX = [
     "page": "wheel-torque-reference.html",
     "id": "",
     "section": "DIY / Maintenance",
-    "img": "assets/guides/wheel-torque-reference.svg"
+    "img": "assets/guides/wheel-torque-reference-thumb.jpg"
+  },
+  {
+    "title": "Radiator Cleaning",
+    "desc": "Clearing debris from the front radiator, step by step.",
+    "page": "radiator-cleaning.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/radiator-cleaning-thumb.jpg"
   }
 ];
