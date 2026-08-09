@@ -961,13 +961,17 @@ table.guide-table tr:hover td{ background:var(--panel); }
   border-bottom:1px solid var(--line);
   padding-bottom:32px;
   margin-bottom:32px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
 }
 .newsletter-block .sib-form-container,
 .newsletter-block .nl-container{
-  background:transparent;
-  border:none;
-  padding:0;
-  max-width:640px;
+  background:transparent !important;
+  border:none !important;
+  padding:0 !important;
+  max-width:520px;
+  width:100%;
 }
 .newsletter-block #sib-container{
   background:transparent !important;
@@ -980,6 +984,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   padding:0 !important;
   background:transparent !important;
   font-family:var(--font-body) !important;
+  width:100%;
 }
 .newsletter-block .nl-heading{
   font-family:var(--font-display);
@@ -993,16 +998,17 @@ table.guide-table tr:hover td{ background:var(--panel); }
   font-size:14px;
   line-height:1.6;
   color:var(--muted);
-  margin:0 0 18px;
-  max-width:520px;
+  margin:0 auto 18px;
+  max-width:460px;
 }
 .newsletter-block .nl-form-row{
   display:flex;
   gap:12px;
   flex-wrap:wrap;
   align-items:flex-start;
+  justify-content:center;
 }
-.newsletter-block .nl-input-block{ flex:1 1 240px; min-width:200px; }
+.newsletter-block .nl-input-block{ flex:1 1 240px; min-width:200px; text-align:left; }
 .newsletter-block .entry__field{
   background:var(--bg) !important;
   border:1px solid var(--line) !important;
