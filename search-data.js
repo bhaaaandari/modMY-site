@@ -460,5 +460,13 @@ window.MODMY_SEARCH_INDEX = [
     "id": "",
     "section": "DIY / Maintenance",
     "img": "assets/guides/wheel-torque-reference-thumb.jpg"
+  },
+  {
+    "title": "Radiator Cleaning",
+    "desc": "Clearing debris from the front radiator, step by step.",
+    "page": "radiator-cleaning.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/radiator-cleaning-thumb.jpg"
   }
 ];
