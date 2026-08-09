@@ -168,6 +168,13 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "How do I set up an at-home charging schedule based on my electricity rates?",
+    "desc": "Build weekday/weekend charging schedules and enter your real rates to track true spend.",
+    "page": "tesla-faqs.html",
+    "id": "faq-charging-schedule-setup",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "What are some useful commands for Grok?",
     "desc": "Navigation, climate, vehicle control, media, productivity, and entertainment commands added in the Tesla Summer Update.",
     "page": "tesla-faqs.html",
@@ -510,5 +517,13 @@ window.MODMY_SEARCH_INDEX = [
     "id": "",
     "section": "DIY / Maintenance",
     "img": "assets/guides/radiator-cleaning-thumb.jpg"
+  },
+  {
+    "title": "At Home Charging Setup",
+    "desc": "Build weekday/weekend charging schedules and enter your real electricity rates.",
+    "page": "at-home-charging-setup.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/at-home-charging-setup-thumb.jpg"
   }
 ];
