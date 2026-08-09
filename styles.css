@@ -1084,10 +1084,9 @@ table.guide-table tr:hover td{ background:var(--panel); }
   border:1px solid var(--gold);
 }
 .newsletter-block .sib-icon{ width:18px; height:18px; fill:currentColor; margin-right:8px; vertical-align:middle; }
-.newsletter-block .sib-form-message-panel{ display:none; }
-.newsletter-block .sib-hide-loader-icon{ display:none; }
 @media (max-width:600px){
   .newsletter-block .nl-form-row{ flex-direction:column; }
+  .newsletter-block .nl-input-block{ flex:0 0 auto; width:100%; max-width:100%; min-width:0; }
   .newsletter-block .nl-btn-block{ width:100%; }
   .newsletter-block .sib-form-block__button{ width:100%; }
 }
