@@ -927,6 +927,9 @@ table.guide-table tr:hover td{ background:var(--panel); }
   background:var(--bg-2);
 }
 .site-footer .container{
+  display:block;
+}
+.foot-bottom{
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -950,6 +953,116 @@ table.guide-table tr:hover td{ background:var(--panel); }
   text-transform:uppercase;
 }
 .foot-links a:hover{ color:var(--red-bright); }
+
+/* ---------------------------------------------------------
+   Footer — newsletter signup (Brevo)
+   --------------------------------------------------------- */
+.newsletter-block{
+  border-bottom:1px solid var(--line);
+  padding-bottom:32px;
+  margin-bottom:32px;
+}
+.newsletter-block .sib-form-container,
+.newsletter-block .nl-container{
+  background:transparent;
+  border:none;
+  padding:0;
+  max-width:640px;
+}
+.newsletter-block .nl-heading{
+  font-family:var(--font-display);
+  font-size:22px;
+  font-weight:700;
+  color:var(--white);
+  margin:0 0 8px;
+}
+.newsletter-block .nl-sub{
+  font-family:var(--font-body);
+  font-size:14px;
+  line-height:1.6;
+  color:var(--muted);
+  margin:0 0 18px;
+  max-width:520px;
+}
+.newsletter-block .nl-form-row{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  align-items:flex-start;
+}
+.newsletter-block .nl-input-block{ flex:1 1 240px; min-width:200px; }
+.newsletter-block .entry__field .input{
+  width:100%;
+  background:var(--bg);
+  border:1px solid var(--line);
+  color:var(--white);
+  font-family:var(--font-body);
+  font-size:14px;
+  padding:12px 14px;
+  border-radius:4px;
+}
+.newsletter-block .entry__field .input::placeholder{ color:var(--muted-2); }
+.newsletter-block .entry__field .input:focus{ outline:none; border-color:var(--gold-soft); }
+.newsletter-block .entry__error{
+  font-family:var(--font-body);
+  font-size:12px;
+  color:var(--red-bright);
+  background:transparent;
+  border:none;
+  display:block;
+  margin-top:6px;
+}
+.newsletter-block .nl-btn-block{ flex:0 0 auto; }
+.newsletter-block .sib-form-block__button{
+  font-family:var(--font-mono);
+  font-size:12px;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  font-weight:700;
+  color:var(--white);
+  background:var(--red);
+  border:none;
+  border-radius:4px;
+  padding:12px 24px;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.newsletter-block .sib-form-block__button:hover{ background:var(--red-bright); }
+.newsletter-block .sr-only{
+  position:absolute;
+  width:1px; height:1px;
+  padding:0; margin:-1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  white-space:nowrap;
+  border:0;
+}
+.newsletter-block .nl-message{
+  font-family:var(--font-body);
+  font-size:13px;
+  border-radius:4px;
+  max-width:520px;
+  padding:10px 14px;
+  margin-bottom:14px;
+}
+.newsletter-block .nl-message-error{
+  color:#ff9494;
+  background:rgba(216,30,44,0.12);
+  border:1px solid var(--red);
+}
+.newsletter-block .nl-message-success{
+  color:#c9e6a8;
+  background:rgba(201,162,74,0.12);
+  border:1px solid var(--gold);
+}
+.newsletter-block .sib-icon{ width:18px; height:18px; fill:currentColor; margin-right:8px; vertical-align:middle; }
+.newsletter-block .sib-form-message-panel{ display:none; }
+.newsletter-block .sib-hide-loader-icon{ display:none; }
+@media (max-width:600px){
+  .newsletter-block .nl-form-row{ flex-direction:column; }
+  .newsletter-block .nl-btn-block{ width:100%; }
+  .newsletter-block .sib-form-block__button{ width:100%; }
+}
 
 /* ---------------------------------------------------------
    Mobile nav
