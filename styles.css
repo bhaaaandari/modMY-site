@@ -961,8 +961,6 @@ table.guide-table tr:hover td{ background:var(--panel); }
   border-bottom:1px solid var(--line);
   padding-bottom:32px;
   margin-bottom:32px;
-  display:flex;
-  justify-content:center;
   text-align:center;
 }
 .newsletter-block .sib-form-container,
@@ -972,6 +970,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   padding:0 !important;
   max-width:520px;
   width:100%;
+  margin:0 auto !important;
 }
 .newsletter-block #sib-container{
   background:transparent !important;
@@ -979,12 +978,15 @@ table.guide-table tr:hover td{ background:var(--panel); }
   border:none !important;
   width:100% !important;
   display:block !important;
+  margin:0 auto !important;
 }
-.newsletter-block .sib-form{
+.newsletter-block .sib-form,
+.newsletter-block #sib-form{
   padding:0 !important;
   background:transparent !important;
   font-family:var(--font-body) !important;
   width:100%;
+  text-align:center !important;
 }
 .newsletter-block .nl-heading{
   font-family:var(--font-display);
@@ -992,6 +994,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   font-weight:700;
   color:var(--white);
   margin:0 0 8px;
+  text-align:center !important;
 }
 .newsletter-block .nl-sub{
   font-family:var(--font-body);
@@ -1000,6 +1003,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   color:var(--muted);
   margin:0 auto 18px;
   max-width:460px;
+  text-align:center !important;
 }
 .newsletter-block .nl-form-row{
   display:flex;
@@ -1008,7 +1012,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   align-items:flex-start;
   justify-content:center;
 }
-.newsletter-block .nl-input-block{ flex:1 1 240px; min-width:200px; text-align:left; }
+.newsletter-block .nl-input-block{ flex:1 1 240px; min-width:200px; max-width:280px; text-align:left; }
 .newsletter-block .entry__field{
   background:var(--bg) !important;
   border:1px solid var(--line) !important;
