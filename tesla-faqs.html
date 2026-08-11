@@ -982,6 +982,14 @@ src="https://www.facebook.com/tr?id=1596601288472084&ev=PageView&noscript=1"
       item.classList.add('is-open');
       btn.setAttribute('aria-expanded', 'true');
       panel.style.maxHeight = panel.scrollHeight + 'px';
+
+      if (typeof gtag === 'function') {
+        var qEl = item.querySelector('.faq-q-text');
+        gtag('event', 'faq_open', {
+          faq_id: item.id || '',
+          faq_question: qEl ? qEl.textContent.trim() : ''
+        });
+      }
     }
 
     allFaqItems.forEach(function (item) {
