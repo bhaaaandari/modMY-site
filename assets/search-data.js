@@ -175,6 +175,13 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "Where is all my battery going when I drive?",
+    "desc": "How to read the Energy app, Trip vs. Rated, and what's actually consuming power.",
+    "page": "tesla-faqs.html",
+    "id": "faq-battery-going-while-driving",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "What are some useful commands for Grok?",
     "desc": "Navigation, climate, vehicle control, media, productivity, and entertainment commands added in the Tesla Summer Update.",
     "page": "tesla-faqs.html",
@@ -525,5 +532,13 @@ window.MODMY_SEARCH_INDEX = [
     "id": "",
     "section": "DIY / Maintenance",
     "img": "assets/guides/at-home-charging-setup-thumb.jpg"
+  },
+  {
+    "title": "Where Your Battery Actually Goes",
+    "desc": "Reading the Energy app, Trip vs. Rated, and what's really consuming power.",
+    "page": "energy-battery-guide.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/energy-battery-guide-thumb.jpg"
   }
 ];
