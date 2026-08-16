@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YL8E1Z4VFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-YL8E1Z4VFV');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18362716155"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18362716155');
+</script>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1596601288472084');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1596601288472084&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where Your Battery Actually Goes | modMY</title>
+<meta name="description" content="How to read your Tesla's Energy app, understand Trip vs. Rated, and figure out where your range is actually going when you drive.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="modMY">
+<meta property="og:url" content="https://www.modmy.co/energy-battery-guide.html">
+<meta property="og:title" content="Where Your Battery Actually Goes | modMY">
+<meta property="og:description" content="How to read your Tesla's Energy app, understand Trip vs. Rated, and figure out where your range is actually going when you drive.">
+<meta property="og:image" content="https://www.modmy.co/assets/og-share.jpg?v=2">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="modMY — Tesla Model Y parts, upgrades, and DIY know-how">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Where Your Battery Actually Goes | modMY">
+<meta name="twitter:description" content="How to read your Tesla's Energy app, understand Trip vs. Rated, and figure out where your range is actually going when you drive.">
+<meta name="twitter:image" content="https://www.modmy.co/assets/og-share.jpg?v=2">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="modMY home">
+        <img src="assets/logo-mark.png" alt="modMY" class="brand-logo">
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+        <li><a href="interior-accessories.html">Interior Accessories</a></li>
+        <li><a href="exterior-accessories.html">Exterior Accessories</a></li>
+        <li><a href="suspension.html">Suspension</a></li>
+        <li><a href="diy-maintenance.html" class="active" aria-current="page">DIY / Maintenance</a></li>
+        <li><a href="tesla-faqs.html">Tesla FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="site-search" id="siteSearch">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search modMY&hellip;" autocomplete="off" aria-label="Search site content">
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="guide-crumb"><a href="diy-maintenance.html">DIY / Maintenance</a> &nbsp;/&nbsp; Where Your Battery Actually Goes</p>
+      <p class="eyebrow">// Reference</p>
+      <h1>Where Your Battery Actually Goes</h1>
+      <p class="lede">How to read the <strong>Energy</strong> app so you know exactly what's using power &mdash; instead of just watching the mileage number drop faster than expected.</p>
+      <div class="guide-meta">
+        <span class="tag">DIY / Maintenance</span>
+        <span>Updated August 2026</span>
+        <span>6&ndash;min read</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="guide-image">
+        <img src="assets/guides/energy-battery-guide-hero.jpg" alt="Tesla Model Y touchscreen showing the Energy app with Drive and Trip data">
+      </div>
+
+      <div class="guide-body">
+        <p>Three different numbers on your screen all relate to "how much battery do I have," and it's easy to mix them up: <strong>Battery %</strong> (how much charge is left), the displayed mileage (a standardized range estimate, not a personal prediction), and <strong>Wh/mi</strong> (what your car is actually consuming per mile). Tesla is explicit that displayed range can fall at a different rate than the miles you actually drive, because it's built on EPA-rated efficiency, not your specific trip. If you want to know where your energy is really going, the <strong>Energy</strong> app is the answer &mdash; here's how to actually read it.</p>
+
+        <h3>The Energy Screen: What to Check First</h3>
+        <p>Tap the <strong>Energy</strong> icon on your touchscreen. A few tabs matter most:</p>
+        <ul>
+          <li><strong>Drive</strong> &mdash; energy used while driving, compared against a projection. Start here if the battery seems to be dropping quickly.</li>
+          <li><strong>Park</strong> &mdash; energy used while parked. Check this if the battery falls overnight or while the car is just sitting.</li>
+          <li><strong>Current Drive</strong> &mdash; focused on the drive happening right now.</li>
+          <li><strong>Since Last Charged</strong> &mdash; the broader pattern since your most recent charge.</li>
+          <li><strong>Trips</strong> &mdash; lets you compare consumption over 10, 100, or 200-mile windows. Longer windows smooth out the effect of one hill or one HVAC-heavy trip.</li>
+          <li><strong>Range Tips</strong> &mdash; personalized suggestions based on your actual driving patterns.</li>
+        </ul>
+
+        <h3>Trip vs. Rated &mdash; the Difference That Actually Matters</h3>
+        <p>These two tabs answer two different questions, and mixing them up is where most of the confusion starts:</p>
+        <div class="guide-table-wrap">
+          <table class="guide-table">
+            <thead>
+              <tr>
+                <th>Tab</th>
+                <th>Question It Answers</th>
+                <th>Best For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="nowrap"><strong>Trip</strong></td>
+                <td>"How am I doing versus what Tesla expected for this specific navigation trip?"</td>
+                <td>Live road trips &mdash; route-specific, changes as conditions change.</td>
+              </tr>
+              <tr>
+                <td class="nowrap"><strong>Rated</strong></td>
+                <td>"How am I doing versus the standardized baseline behind the rated range number?"</td>
+                <td>Understanding why real-world use differs from the EPA/rated baseline.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Trip</strong> can look good while <strong>Rated</strong> looks bad, or the other way around &mdash; that's not a contradiction, they're just measuring against different reference points.</p>
+
+        <h3>Why Your Range Can Drop Faster Than You Drove</h3>
+        <p>Say your Model Y starts at a displayed 250 miles and you drive 50 actual miles, but the displayed range falls by 70 miles. That doesn't mean the car burned through 70 physical miles of range &mdash; the displayed number isn't a personalized fuel gauge, it's tied to rated efficiency. If your actual <strong>Wh/mi</strong> is higher than that standardized assumption (highway speed, headwind, cold weather, hills, HVAC), your real-world miles-per-charge will simply be lower than the display suggested. The fix is to stop reading the mileage number and start reading <strong>Wh/mi</strong> instead, then use <strong>Trip</strong>/<strong>Rated</strong> to understand why it's higher or lower than expected.</p>
+
+        <h3>What Wh/mi Actually Means</h3>
+        <p>Wh/mi is watt-hours consumed per mile &mdash; lower is more efficient. As a rough feel for the numbers: 200 Wh/mi is about 0.20 kWh per mile, 250 Wh/mi is about 0.25 kWh per mile, 300 Wh/mi is about 0.30 kWh per mile. There's no universal "good" number to chase &mdash; wheels, tires, temperature, wind, speed, terrain, traffic, and HVAC all move it around. The most useful comparison is your own car, under similar conditions, over time.</p>
+
+        <h3>The Biggest Things You Actually Control</h3>
+        <ul>
+          <li><strong>Speed</strong> &mdash; the single biggest lever. Aerodynamic resistance increases rapidly as speed climbs.</li>
+          <li><strong>Smooth acceleration</strong> &mdash; avoid repeated hard acceleration; <strong>Chill</strong> mode makes this easier.</li>
+          <li><strong>Smooth deceleration</strong> &mdash; lift off gradually when safe rather than braking hard, so regenerative braking can return more energy to the battery.</li>
+          <li><strong>HVAC</strong> &mdash; seat and steering-wheel heaters are more efficient than heating the whole cabin.</li>
+          <li><strong>Preconditioning</strong> &mdash; do it while still plugged in so grid power handles part of the job, not just the battery.</li>
+          <li><strong>Tires</strong> &mdash; keep them at Tesla's recommended pressure with correct alignment; underinflation adds rolling resistance.</li>
+          <li><strong>Aero wheel covers</strong> &mdash; if equipped, keep them on. They're there to cut drag, not just for looks.</li>
+          <li><strong>Cargo &amp; roof racks</strong> &mdash; remove when not in use; aerodynamic accessories can meaningfully increase consumption.</li>
+          <li><strong>Windows</strong> &mdash; keep them closed at highway speed when practical.</li>
+        </ul>
+
+        <h3>Chill vs. Standard</h3>
+        <p>Chill isn't a bigger battery or a different battery-management setting &mdash; its main effect is softer acceleration response, which makes smooth driving easier. Tesla also documents a cold-weather reason to use it: dialing back acceleration lets the heat pump pull more heat from the battery for cabin warmth instead of preserving peak acceleration performance. Tesla calls Chill the most efficient mode, especially in cold weather &mdash; though Standard can be just as efficient if you drive it equally smoothly. The biggest practical difference is often driver behavior, not the mode itself.</p>
+
+        <h3>Climate Control Without Wasting Energy</h3>
+        <p>Use <strong>Auto</strong> and a reasonable setpoint rather than chasing one "magic" temperature &mdash; Tesla doesn't publish a number that guarantees a specific Wh/mi improvement, the real principle is avoiding unnecessarily large temperature swings. Precondition while plugged in when you can. In cold weather, seat and steering-wheel heat can warm you more efficiently than heating the whole cabin. In hot weather, pre-cool while plugged in, and know that the A/C compressor sometimes runs even when the cabin doesn't feel like it needs it &mdash; it's also cooling the battery.</p>
+
+        <h3>Cold Weather Isn't the Same as Battery Degradation</h3>
+        <p>Cold temperatures increase tire rolling resistance and cabin heating draws battery energy; the heat pump (where equipped) helps by recovering heat from other vehicle components. In very cold conditions, regenerative braking can also be temporarily limited, and you may see a blue snowflake indicator when some stored energy is unavailable because the battery itself is cold. Available energy and regen typically improve as the battery warms up &mdash; so a cold morning making the car look less efficient doesn't mean you've lost permanent capacity.</p>
+
+        <h3>Battery Draining While Parked?</h3>
+        <p>If the drop happens while you're not driving, don't look at <strong>Drive</strong> &mdash; check <strong>Energy &rarr; Park</strong> instead. The usual suspects:</p>
+        <ul>
+          <li><strong>Sentry Mode</strong></li>
+          <li><strong>Cabin Overheat Protection</strong></li>
+          <li><strong>Keep Climate On / Camp / Pet Mode</strong></li>
+          <li>Preconditioning while unplugged</li>
+          <li><strong>Summon</strong> standby</li>
+          <li>Infotainment/streaming/gaming left running</li>
+          <li>Power outlets or Powershare, where equipped</li>
+          <li>Third-party apps repeatedly polling the car's data</li>
+        </ul>
+        <p>Tesla says a parked car can consume around 1% of charge per day under normal conditions, more depending on which features are active. Turn off what you don't need, and keep it plugged in when you can.</p>
+
+        <h3>Efficiency vs. Battery Health &mdash; Two Different Things</h3>
+        <p>Efficiency is how much energy the car needs to go a mile. Battery health is how much energy the battery can hold in the first place. A high Wh/mi reading on a fast, cold, windy, uphill drive doesn't by itself mean anything is wrong with the battery. If you actually want to check battery health, use the built-in test under <strong>Controls &rarr; Service &rarr; Battery Health</strong> rather than trying to infer capacity loss from the displayed range.</p>
+
+        <h3>modMY's Recommended Everyday Setup</h3>
+        <ul>
+          <li><strong>Acceleration:</strong> Chill if efficiency is the priority, Standard if you drive smoothly anyway.</li>
+          <li><strong>Climate:</strong> Auto, moderate setpoint, avoid extremes.</li>
+          <li><strong>Preconditioning:</strong> Scheduled, and plugged in when possible.</li>
+          <li><strong>Tires:</strong> Tesla's recommended cold pressure, checked regularly.</li>
+          <li><strong>Highway:</strong> Dropping your speed a little beats fiddling with settings.</li>
+          <li><strong>Parked:</strong> Turn off Sentry and other always-on features you don't actually need.</li>
+          <li><strong>Diagnosis:</strong> Watch <strong>Wh/mi</strong> and <strong>Energy &rarr; Drive/Park</strong> &mdash; not the displayed mileage alone.</li>
+        </ul>
+
+        <h3>When to Call Tesla Service</h3>
+        <p>Escalate if consumption stays unusually high across several comparable drives even after accounting for speed, weather, terrain, HVAC, tires, and parked features &mdash; or if you see warning messages, odd charging behavior, or unexplained drain that persists while parked. Save a few Energy app screenshots along with the route, speed, temperature, and HVAC conditions so Service has something concrete to look at.</p>
+
+        <h3>Quick Reference</h3>
+        <div class="guide-table-wrap">
+          <table class="guide-table">
+            <thead>
+              <tr>
+                <th>If you see this&hellip;</th>
+                <th>Check this first&hellip;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Battery % drops quickly while driving</td>
+                <td><strong>Wh/mi</strong> &rarr; speed &rarr; acceleration &rarr; hills/wind &rarr; HVAC &rarr; tires</td>
+              </tr>
+              <tr>
+                <td>Displayed miles drop faster than actual miles</td>
+                <td>Normal &mdash; displayed miles use EPA-rated efficiency. Check the <strong>Energy</strong> app.</td>
+              </tr>
+              <tr>
+                <td><strong>Trip</strong> looks bad</td>
+                <td>Compare actual <strong>Wh/mi</strong> against the trip projection; check route conditions.</td>
+              </tr>
+              <tr>
+                <td><strong>Rated</strong> looks bad</td>
+                <td>Real-world consumption is above the standardized baseline; check speed/weather/HVAC.</td>
+              </tr>
+              <tr>
+                <td>Battery drops overnight</td>
+                <td><strong>Energy &rarr; Park</strong> &rarr; Sentry &rarr; climate/Cabin Overheat &rarr; standby/apps</td>
+              </tr>
+              <tr>
+                <td>Cold-weather range suddenly worse</td>
+                <td>Battery temperature, cabin heating, rolling resistance, limited regen</td>
+              </tr>
+              <tr>
+                <td>Want maximum efficiency</td>
+                <td>Lower speed, smooth acceleration, Chill, sensible HVAC, preconditioning while plugged in, correct tire pressure</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout-source">
+          <h4>Official Tesla Source</h4>
+          <p>For an always-current reference, you can go straight to Tesla's own documentation:</p>
+          <ul>
+            <li><a href="https://www.tesla.com/ownersmanual/modely/en_us/" target="_blank" rel="noopener">Tesla Model Y Owner's Manual ↗</a></li>
+            <li><a href="https://www.tesla.com/support/range" target="_blank" rel="noopener">Tesla Support &mdash; Range Tips ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="callout callout-note">
+          <h4>Accuracy</h4>
+          <p>Sourced from Tesla's Model Y Owner's Manual and official Range Tips documentation. Menu names and available features can vary by vehicle and software version, so treat exact screen layouts as current as of August 2026 rather than permanent.</p>
+        </div>
+
+        <div class="callout callout-disclaimer">
+          <h4>Disclaimer</h4>
+          <p>This information is provided for reference only and does not replace Tesla's official documentation. Real-world range and efficiency depend on your specific vehicle, conditions, and driving habits.</p>
+        </div>
+
+        <div class="guide-footer-nav">
+          <a href="diy-maintenance.html">&larr; Back to DIY / Maintenance</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" style="padding-top:48px;">
+    <div class="container">
+      <h2 class="section-title" style="margin-bottom:36px;">What People Are Actively Viewing</h2>
+      <div class="spotlight-grid" id="spotlightGrid"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+    <div class="newsletter-block">
+      <div class="sib-form">
+        <div id="sib-form-container" class="sib-form-container">
+          <div id="error-message" class="sib-form-message-panel nl-message nl-message-error">
+            <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+              <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon"><path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z"/></svg>
+              <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
+            </div>
+          </div>
+          <div id="success-message" class="sib-form-message-panel nl-message nl-message-success">
+            <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+              <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z"/></svg>
+              <span class="sib-form-message-panel__inner-text">Your subscription has been successful.</span>
+            </div>
+          </div>
+          <div id="sib-container" class="sib-container--large sib-container--vertical nl-container">
+            <form id="sib-form" method="POST" action="https://ff2ddf43.sibforms.com/serve/MUIFAAg1aw1e0h5bZrdABAgnjzAiLnp5RyT2z1WfV8sheHFLJ_Gv-barSHwVwT9hFi2C_DBArmdhmC0a1w7I2oufqzLAVzwWZjOlFM8SEs0JJKh8-QJ3jU-JlV4Q6r1gZE7BJRfjOd_qsymBHGzgd2NFiyYzXEgG0oxv8swIse4_nuzyExRHExQ7wSNl5Z0UL_RerEHBRpfdrJt3fA==" data-type="subscription">
+              <h4 class="nl-heading">Never Miss a New Guide</h4>
+              <p class="nl-sub">We&#39;ll email you when something new goes live &mdash; DIY guides, product picks, and real answers for Model Y owners. No spam, ever.</p>
+              <div class="nl-form-row">
+                <div class="sib-input sib-form-block nl-input-block">
+                  <div class="form__entry entry_block">
+                    <div class="form__label-row">
+                      <label class="entry__label sr-only" for="EMAIL" data-required="*">Enter your email address to subscribe</label>
+                      <div class="entry__field">
+                        <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" value="" placeholder="Enter your email" data-required="true" required />
+                      </div>
+                    </div>
+                    <label class="entry__error entry__error--primary"></label>
+                  </div>
+                </div>
+                <div class="sib-form-block nl-btn-block">
+                  <button class="sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">
+                    <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512"><path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"/></svg>
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+              <input type="text" name="email_address_check" value="" class="input--hidden" style="display:none;">
+              <input type="hidden" name="locale" value="en" style="display:none;">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+        <div class="foot-brand"><a href="index.html" aria-label="modMY home"><img src="assets/logo-mark.png" alt="modMY" class="foot-logo"></a></div>
+      <ul class="foot-links">
+        <li><a href="interior-accessories.html">Interior</a></li>
+        <li><a href="exterior-accessories.html">Exterior</a></li>
+        <li><a href="suspension.html">Suspension</a></li>
+        <li><a href="diy-maintenance.html">DIY / Maintenance</a></li>
+        <li><a href="tesla-faqs.html">Tesla FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+        <small>&copy; 2026 modMY. Not affiliated with Tesla, Inc.</small>
+      </div>
+    </div>
+  </footer>
+  <script>
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.LOCALE = 'en';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+    window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+    window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+    window.INVALID_NUMBER = "The information provided is invalid. Please review the field format and try again.";
+    window.INVALID_DATE = "Please enter a valid date";
+    window.REQUIRED_MULTISELECT_MESSAGE = 'Please select at least 1 option';
+    window.translation = {
+      common: {
+        selectedList: '{quantity} list selected',
+        selectedLists: '{quantity} lists selected',
+        selectedOption: '{quantity} selected',
+        selectedOptions: '{quantity} selected',
+      }
+    };
+    var AUTOHIDE = Boolean(0);
+  </script>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  <script src="assets/search-data.js"></script>
+  <script src="nav.js"></script>
+  <script>
+    (function () {
+      var grid = document.getElementById('spotlightGrid');
+      var PLUG_ICON = '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+        '<line x1="9" y1="2" x2="9" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '<line x1="15" y1="2" x2="15" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '<path d="M6 8h12v5a6 6 0 0 1-12 0V8z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/>' +
+        '<path d="M13 10.2 9.6 14.6h2.1l-.6 3.2 3.4-4.6h-2.1l.6-3z" fill="currentColor"/>' +
+        '<line x1="12" y1="19" x2="12" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '<path d="M8 22h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+        '</svg>';
+      var pool = (window.MODMY_SEARCH_INDEX || []).filter(function (item) {
+        return (item.img || item.section === 'Tesla FAQs') && item.page !== 'energy-battery-guide.html';
+      });
+      for (var i = pool.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+      }
+      var picks = pool.slice(0, 4);
+      function escapeHtml(s) {
+        return s.replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+      grid.innerHTML = picks.map(function (item) {
+        var href = item.page + (item.id ? '#' + item.id : '');
+        var imageHtml = item.img
+          ? '<div class="spotlight-image"><img src="' + item.img + '" alt="' + escapeHtml(item.title) + '" loading="lazy"></div>'
+          : '<div class="spotlight-image spotlight-image-icon">' + PLUG_ICON + '</div>';
+        return '<a class="spotlight-card" href="' + href + '">' +
+          imageHtml +
+          '<div class="spotlight-body">' +
+          '<span class="spotlight-tag">' + escapeHtml(item.section) + '</span>' +
+          '<h4>' + escapeHtml(item.title) + '</h4>' +
+          '<p>' + escapeHtml(item.desc) + '</p>' +
+          '</div></a>';
+      }).join('');
+    })();
+  </script>
+</body>
+</html>
