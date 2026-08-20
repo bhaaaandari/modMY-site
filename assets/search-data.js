@@ -622,4 +622,45 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/61jRJ8xWZpL._AC_SL1500_.jpg"
   }
+,
+  {
+    "title": "Air Vent Cover",
+    "desc": "Keeps debris and small objects out of the AC vents.",
+    "page": "interior-accessories.html",
+    "id": "air-vent-cover",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61fesIr2VzL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Under Screen Storage",
+    "desc": "Extra storage under the center screen, no rattling.",
+    "page": "interior-accessories.html",
+    "id": "under-screen-storage",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61o33ShdOtL._AC_SL1282_.jpg"
+  },
+  {
+    "title": "Delicate Horsehair Cleaning Brush",
+    "desc": "Gentle brush for cleaning vegan leather without damage.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "delicate-horsehair-cleaning-brush",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/71y53ZiWGeL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Cup Holder Expander",
+    "desc": "Expands the factory cup holder to fit larger bottles and tumblers.",
+    "page": "interior-accessories.html",
+    "id": "cup-holder-expander",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61QUpxcYpXL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "1TB SSD for Sentry/Dash Recording",
+    "desc": "1TB SSD built to handle continuous Sentry Mode and dashcam writes.",
+    "page": "interior-accessories.html",
+    "id": "ssd-sentry-dash-recording",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/91YfRIy7kYL._AC_SL1500_.jpg"
+  }
 ];
