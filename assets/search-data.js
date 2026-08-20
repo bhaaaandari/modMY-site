@@ -278,57 +278,57 @@ window.MODMY_SEARCH_INDEX = [
   {
     "title": "Vegan Leather Cleaner",
     "desc": "Formulated specifically for Tesla's vegan leather seats.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "vegan-leather-cleaner",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/71nB-jzkVBL._AC_SL1500_.jpg"
   },
   {
     "title": "Leather Shield (Ceramic)",
     "desc": "Ceramic sealant that pairs with the Vegan Leather Cleaner to protect against stains.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "leather-shield-ceramic",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/61NLfc31YeL._AC_SL1500_.jpg"
   },
   {
     "title": "Microfiber Drying Towel",
     "desc": "Quickly pulls water off the exterior to beat water spots.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "microfiber-drying-towel",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/71CdoJLxBGL._AC_SL1500_.jpg"
   },
   {
     "title": "Chenille Microfiber Wash Mitt",
     "desc": "Chemical Guys quality, no fuzzies left behind even on first use.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "chenille-microfiber-wash-mitt",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/814Ghg5zU2L._AC_SL1500_.jpg"
   },
   {
     "title": "Car Wash Soap",
     "desc": "Works with a foam cannon or a bucket, lathers well, nice shine.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "car-wash-soap",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/71qfl90YV7L._AC_SL1500_.jpg"
   },
   {
     "title": "Pack of Microfiber Towels",
     "desc": "Multi-purpose towels kept in the car, trunk, and garage.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "pack-of-microfiber-towels",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/81NSjqrmC4L._AC_SL1500_.jpg"
   },
   {
     "title": "Glass Cleaner Spray",
     "desc": "Leaves fewer streaks than other glass cleaners tried so far.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "glass-cleaner-spray",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/71b6uunokwL._AC_SL1000_.jpg"
   },
   {
@@ -350,9 +350,9 @@ window.MODMY_SEARCH_INDEX = [
   {
     "title": "Portable Duster/Vacuum",
     "desc": "Compact suction and blower, handy for interior messes and the frunk.",
-    "page": "interior-accessories.html",
+    "page": "cleaning-diy-must-haves.html",
     "id": "portable-duster-vacuum",
-    "section": "Interior Accessories",
+    "section": "Cleaning & DIY Must-Haves",
     "img": "https://m.media-amazon.com/images/I/616MQtMRnJL._AC_SL1500_.jpg"
   },
   {
@@ -540,5 +540,86 @@ window.MODMY_SEARCH_INDEX = [
     "id": "",
     "section": "DIY / Maintenance",
     "img": "assets/guides/energy-battery-guide-thumb.jpg"
+  }
+,
+  {
+    "title": "CAR GUYS Plastic Restorer",
+    "desc": "Restores faded black trim, tested against rain and repeated washes.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "car-guys-plastic-restorer",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/71IdNv1JM7L._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Car Jack",
+    "desc": "The jack used for DIY tire rotations, rated well above what the Model Y needs.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "car-jack",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/61CRQ-5GpRL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Tesla Jack Pads / Lift Pucks",
+    "desc": "Shaped to sit exactly on the Model Y's factory lift points.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "tesla-jack-pads-lift-pucks",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/71wAhYb+U6L._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Torque Wrench",
+    "desc": "Sets and clicks at the correct wheel bolt torque, no guessing.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "torque-wrench",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/41eVgOe0eYL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "21mm Socket",
+    "desc": "The correct fit for the Model Y's factory wheel bolts.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "21mm-socket",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/81mdeJMG+BL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Plastic Trim Tool",
+    "desc": "Gets under trim clips without cracking or marking panels.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "plastic-trim-tool",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/61DSvZDNjpL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "T20 Torx Screwdriver",
+    "desc": "The Torx size used across most panel screws on the Model Y.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "t20-torx-screwdriver",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/71jMXYb+p1L._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Cabin Air Filters (Set of 2)",
+    "desc": "HEPA and carbon combo, direct fit, used in our cabin filter swap guide.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "cabin-air-filters-set-of-2",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/91TFKa7vHbL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Frunk Filters",
+    "desc": "Companion filters for the frunk intake, same easy swap as the cabin set.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "frunk-filters",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/81vSgTpbBkL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Shop Vac",
+    "desc": "Used to clear debris from the radiator and condenser during cleaning.",
+    "page": "cleaning-diy-must-haves.html",
+    "id": "shop-vac",
+    "section": "Cleaning & DIY Must-Haves",
+    "img": "https://m.media-amazon.com/images/I/61jRJ8xWZpL._AC_SL1500_.jpg"
   }
 ];
