@@ -405,6 +405,10 @@ h2.section-title{
   justify-content:space-between;
 }
 .cat-card:hover{ background:var(--panel-2); }
+.cat-card-empty{
+  background:var(--bg);
+  min-height:230px;
+}
 .cat-card .lvl{
   font-family:var(--font-mono);
   font-size:12px;
