@@ -662,5 +662,13 @@ window.MODMY_SEARCH_INDEX = [
     "id": "ssd-sentry-dash-recording",
     "section": "Interior Accessories",
     "img": "https://m.media-amazon.com/images/I/91YfRIy7kYL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "Magnetic Phone Mount",
+    "desc": "Solid magnetic mount, minimal shake even on trails and bumpy roads.",
+    "page": "interior-accessories.html",
+    "id": "magnetic-phone-mount",
+    "section": "Interior Accessories",
+    "img": "https://m.media-amazon.com/images/I/61SPl96L1vL._AC_SL1080_.jpg"
   }
 ];
