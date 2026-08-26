@@ -549,10 +549,13 @@ h2.section-title{
   flex:1;
 }
 .product-card .btn{ align-self:center; }
-.product-card .vion-note{
+.vion-note{
   color:var(--muted);
   font-size:13.5px;
   line-height:1.65;
+  margin:16px 0 0;
+}
+.product-card .vion-note{
   text-align:center;
   flex:none;
   margin:28px 0 0;
