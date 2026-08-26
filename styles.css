@@ -554,6 +554,7 @@ h2.section-title{
   font-size:13.5px;
   line-height:1.65;
   text-align:center;
+  flex:none;
   margin:28px 0 0;
 }
 
