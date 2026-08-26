@@ -353,6 +353,13 @@ ul{ margin:0; padding:0; list-style:none; }
   background:transparent;
 }
 .btn-ghost:hover{ border-color:var(--gold-soft); color:var(--gold-soft); }
+.btn-vion{
+  background:var(--white);
+  color:var(--red);
+  border-color:var(--white);
+  margin-top:10px;
+}
+.btn-vion:hover{ background:var(--gold-soft); border-color:var(--gold-soft); transform:translateY(-1px); }
 
 /* ---------------------------------------------------------
    Section paddings / helpers
@@ -542,6 +549,13 @@ h2.section-title{
   flex:1;
 }
 .product-card .btn{ align-self:center; }
+.vion-note{
+  color:var(--muted);
+  font-size:13.5px;
+  line-height:1.65;
+  text-align:center;
+  margin:10px 0 0;
+}
 
 .placeholder-card{
   background:var(--panel);
