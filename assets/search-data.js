@@ -182,6 +182,13 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Tesla FAQs"
   },
   {
+    "title": "What is regenerative braking with my Tesla and how do I know if it's turned on?",
+    "desc": "How regen braking works, and how to spot it running from the touchscreen indicator.",
+    "page": "tesla-faqs.html",
+    "id": "faq-what-is-regen-braking",
+    "section": "Tesla FAQs"
+  },
+  {
     "title": "What are some useful commands for Grok?",
     "desc": "Navigation, climate, vehicle control, media, productivity, and entertainment commands added in the Tesla Summer Update.",
     "page": "tesla-faqs.html",
@@ -540,6 +547,14 @@ window.MODMY_SEARCH_INDEX = [
     "id": "",
     "section": "DIY / Maintenance",
     "img": "assets/guides/energy-battery-guide-thumb.jpg"
+  },
+  {
+    "title": "Understanding Regenerative Braking",
+    "desc": "How it works, how to spot it on the touchscreen, and how to set the Deceleration Mode level.",
+    "page": "regenerative-braking-guide.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/regenerative-braking-guide-thumb.jpg"
   }
 ,
   {
