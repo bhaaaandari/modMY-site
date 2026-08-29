@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://www.modmy.co/diy-maintenance.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -91,8 +91,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.modmy.co/vion-magnetic-phone-mount-guide.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.modmy.co/tesla-faqs.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
