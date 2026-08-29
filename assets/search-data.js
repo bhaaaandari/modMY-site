@@ -685,5 +685,20 @@ window.MODMY_SEARCH_INDEX = [
     "id": "magnetic-phone-mount",
     "section": "Interior Accessories",
     "img": "https://m.media-amazon.com/images/I/61SPl96L1vL._AC_SL1080_.jpg"
+  },
+  {
+    "title": "What is the best accessory to securely mount my phone?",
+    "desc": "Why the VION Magnetic Phone Mount beat out another highly rated mount we tried and returned.",
+    "page": "tesla-faqs.html",
+    "id": "faq-best-phone-mount",
+    "section": "Tesla FAQs"
+  },
+  {
+    "title": "VION Magnetic Phone Mount",
+    "desc": "Full install walkthrough, from unboxing to a tightened-down, wobble-free mount.",
+    "page": "vion-magnetic-phone-mount-guide.html",
+    "id": "",
+    "section": "DIY / Maintenance",
+    "img": "assets/guides/vion-magnetic-phone-mount-thumb.jpg"
   }
 ];
