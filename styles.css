@@ -1569,6 +1569,15 @@ table.faq-table tr:hover td{ background:var(--bg-2); }
   transition:background .2s ease;
 }
 .side-popup-btn:hover{ background:#b8121f; }
+.popup-hl{ color:var(--gold-soft); font-weight:700; }
+.side-popup-link-text{
+  text-align:center;
+  font-family:var(--font-mono);
+  font-size:10.5px;
+  color:var(--muted-2);
+  margin:10px 0 0;
+  word-break:break-all;
+}
 
 @media (max-width:480px){
   .buyer-popup-stack{ left:0; right:0; width:100%; padding:0 12px; align-items:stretch; }
