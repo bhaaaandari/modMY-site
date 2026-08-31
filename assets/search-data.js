@@ -14,13 +14,6 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Page"
   },
   {
-    "title": "Suspension",
-    "desc": "Coilovers, springs, sway bars, alignment specs and handling.",
-    "page": "suspension.html",
-    "id": "",
-    "section": "Page"
-  },
-  {
     "title": "DIY / Maintenance",
     "desc": "Step-by-step guides, torque specs, and tool lists.",
     "page": "diy-maintenance.html",
@@ -442,48 +435,11 @@ window.MODMY_SEARCH_INDEX = [
     "section": "Exterior Accessories",
     "img": "https://m.media-amazon.com/images/I/61uBb3B4SML._AC_SL1500_.jpg"
   },
-  {
-    "title": "Coilover Comparison",
-    "desc": "Street vs. track-focused setups for the Y.",
-    "page": "suspension.html",
-    "id": "coilover-comparison",
-    "section": "Suspension"
-  },
-  {
-    "title": "Lowering Springs",
-    "desc": "Drop height, ride quality, and spring rate notes.",
-    "page": "suspension.html",
-    "id": "lowering-springs",
-    "section": "Suspension"
-  },
-  {
-    "title": "Sway Bar Upgrades",
-    "desc": "Front and rear bar options for body control.",
-    "page": "suspension.html",
-    "id": "sway-bar-upgrades",
-    "section": "Suspension"
-  },
-  {
-    "title": "Alignment Specs",
-    "desc": "Recommended camber, toe, and caster settings.",
-    "page": "suspension.html",
-    "id": "alignment-specs",
-    "section": "Suspension"
-  },
-  {
-    "title": "Air Suspension",
-    "desc": "Adjustable ride height systems, pros and cons.",
-    "page": "suspension.html",
-    "id": "air-suspension",
-    "section": "Suspension"
-  },
-  {
-    "title": "Bushings & Mounts",
-    "desc": "Polyurethane upgrades and NVH trade-offs.",
-    "page": "suspension.html",
-    "id": "bushings-and-mounts",
-    "section": "Suspension"
-  },
+
+
+
+
+
   {
     "title": "Tire Rotation Guide",
     "desc": "Jack points, torque specs, and rotation pattern, sourced from Tesla's Service Manual.",
