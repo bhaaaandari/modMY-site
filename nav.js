@@ -13,6 +13,27 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // ---------------------------------------------------------
+  // "Parts" nav dropdown — opens on hover (desktop) or click
+  // (desktop + mobile), closes on outside click or link click
+  // ---------------------------------------------------------
+  var dropdown = document.querySelector('.nav-dropdown');
+  if (dropdown) {
+    var dropdownBtn = dropdown.querySelector('.nav-dropdown-btn');
+    dropdownBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var isOpen = dropdown.classList.toggle('open');
+      dropdownBtn.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', function (e) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('open');
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // ---------------------------------------------------------
   // Site search
   // ---------------------------------------------------------
   var input = document.getElementById('searchInput');
