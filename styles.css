@@ -110,6 +110,11 @@ ul{ margin:0; padding:0; list-style:none; }
 }
 .main-nav a{
   position:relative;
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  height:32px;
+  line-height:1;
   font-family:var(--font-display);
   font-weight:600;
   font-size:14px;
@@ -139,6 +144,10 @@ ul{ margin:0; padding:0; list-style:none; }
 .nav-dropdown-btn{
   background:none;
   border:none;
+  box-sizing:border-box;
+  appearance:none;
+  height:32px;
+  line-height:1;
   padding:6px 0;
   margin:0;
   cursor:pointer;
@@ -1216,8 +1225,8 @@ table.guide-table tr:hover td{ background:var(--panel); }
     gap:0;
     padding:8px 32px 20px;
   }
-  .main-nav a{ display:block; padding:14px 0; width:100%; white-space:normal; }
-  .nav-dropdown-btn{ width:100%; justify-content:space-between; padding:14px 0; }
+  .main-nav a{ display:block; height:auto; padding:14px 0; width:100%; white-space:normal; }
+  .nav-dropdown-btn{ height:auto; width:100%; justify-content:space-between; padding:14px 0; }
   .nav-dropdown-panel{
     position:static;
     opacity:1;
