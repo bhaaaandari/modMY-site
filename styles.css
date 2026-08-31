@@ -103,6 +103,12 @@ ul{ margin:0; padding:0; list-style:none; }
 }
 .brand:hover .brand-logo{ opacity:0.85; }
 
+.main-nav{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
 .main-nav ul{
   display:flex;
   align-items:center;
@@ -1209,6 +1215,8 @@ table.guide-table tr:hover td{ background:var(--panel); }
   }
   .nav-toggle{ display:inline-flex; align-items:center; justify-content:center; order:2; }
   .main-nav{
+    flex:none;
+    justify-content:flex-start;
     position:absolute;
     top:100%; left:0; right:0;
     background:var(--bg);
