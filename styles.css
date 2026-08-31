@@ -1142,7 +1142,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   .main-nav{
     position:absolute;
     top:100%; left:0; right:0;
-    background:rgba(10,10,11,0.98);
+    background:var(--bg);
     border-bottom:1px solid var(--line);
     max-height:0;
     overflow:hidden;
