@@ -915,7 +915,7 @@ table.guide-table tr:hover td{ background:var(--panel); }
   background:var(--red);
   flex:none;
 }
-.materials-list .mat-link{
+.mat-link{
   font-family:var(--font-mono);
   font-size:12px;
   letter-spacing:0.05em;
@@ -926,20 +926,25 @@ table.guide-table tr:hover td{ background:var(--panel); }
   white-space:nowrap;
   transition:border-color .2s ease, color .2s ease;
 }
-.materials-list .mat-link:hover{ border-color:var(--gold-soft); color:var(--white); }
-.materials-list .mat-links{
+.mat-link:hover{ border-color:var(--gold-soft); color:var(--white); }
+.mat-links{
   display:flex;
   align-items:center;
   gap:10px;
   flex-wrap:wrap;
   justify-content:flex-end;
 }
-.materials-list .mat-link-vion{
+.mat-link-vion{
   background:var(--white);
   color:var(--red);
   border-color:var(--white);
 }
-.materials-list .mat-link-vion:hover{ background:var(--gold-soft); border-color:var(--gold-soft); color:var(--red); }
+.mat-link-vion:hover{ background:var(--gold-soft); border-color:var(--gold-soft); color:var(--red); }
+.product-card .mat-link{
+  align-self:center;
+  text-align:center;
+}
+.product-card .mat-link + .mat-link{ margin-top:10px; }
 
 .guide-steps{ margin:0 0 8px; padding:0; list-style:none; counter-reset:step; }
 .guide-steps > li{
