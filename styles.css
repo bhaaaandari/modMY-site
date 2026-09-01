@@ -630,6 +630,27 @@ h2.section-title{
   line-height:1.65;
   margin:16px 0 0;
 }
+.vion-banner-block{
+  margin:0 0 28px;
+  text-align:center;
+}
+.vion-banner-link{
+  display:block;
+  border:1px solid var(--line);
+  overflow:hidden;
+  line-height:0;
+  transition:opacity .2s ease;
+}
+.vion-banner-link:hover{ opacity:0.9; }
+.vion-banner-link img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.vion-banner-block .vion-note{
+  text-align:center;
+  margin:12px 0 0;
+}
 .product-card .vion-note{
   text-align:center;
   flex:none;
