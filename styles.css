@@ -638,6 +638,11 @@ h2.section-title{
   max-width:700px;
   margin:0 auto 44px;
 }
+.vion-banner-divider{
+  height:2px;
+  margin:28px 0 0;
+  background:linear-gradient(90deg, var(--red), transparent 85%);
+}
 .vion-banner-link{
   display:block;
   border:1px solid var(--line);
