@@ -634,6 +634,10 @@ h2.section-title{
   margin:0 0 44px;
   text-align:center;
 }
+.site-footer .vion-banner-block{
+  max-width:700px;
+  margin:0 auto 44px;
+}
 .vion-banner-link{
   display:block;
   border:1px solid var(--line);
